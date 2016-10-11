@@ -1,0 +1,226 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  Jump Game I - 甜菜的刷题笔记
+  
+  </title>
+ <meta name="description" content="Work hard, play hard.">
+ <link href="atom.xml" rel="alternate" title="甜菜的刷题笔记" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">甜菜的刷题笔记</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 甜菜的刷题笔记</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>Greedy Algorithm</label></li>
+
+          
+            <li><a title="Jump Game I" href="14761498562940.html">Jump Game I</a></li>
+          
+            <li><a title="Jump Game II" href="14761498162828.html">Jump Game II</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>OO Design</label></li>
+
+          
+            <li><a title="Elevator bank" href="14761439193307.html">Elevator bank</a></li>
+          
+            <li><a title="Parking Lot" href="14761439089840.html">Parking Lot</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>Greedy Algorithm</span></li>
+                        
+                          <li><a title="Jump Game I" href="14761498562940.html">Jump Game I</a></li>
+                        
+                          <li><a title="Jump Game II" href="14761498162828.html">Jump Game II</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>OO Design</span></li>
+                        
+                          <li><a title="Elevator bank" href="14761439193307.html">Elevator bank</a></li>
+                        
+                          <li><a title="Parking Lot" href="14761439089840.html">Parking Lot</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>Jump Game I</h1>
+
+<p>Given an array of non-negative integers, you are initially positioned at the first index of the array.</p>
+
+<p>Each element in the array represents your maximum jump length at that position.</p>
+
+<p>Determine if you are able to reach the last index.</p>
+
+<p>Notice</p>
+
+<p>This problem have two method which is Greedy and Dynamic Programming.</p>
+
+<p>The time complexity of Greedy method is O(n).</p>
+
+<p>The time complexity of Dynamic Programming method is O(n<sup>2).</sup></p>
+
+<p>We manually set the small data set to allow you pass the test in both ways. This is just to let you learn how to use this problem in dynamic programming ways. If you finish it in dynamic programming ways, you can try greedy method to make it accept again.</p>
+
+<p>Have you met this question in a real interview? Yes<br/>
+Example<br/>
+A = <code>[2,3,1,1,4]</code>, return true.</p>
+
+<p>A = <code>[3,2,1,0,4]</code>, return false.</p>
+
+<h4 id="toc_0">Solution</h4>
+
+<p>Greedy Algorithm O(N)<br/>
+Dynamic Programming O(N<sup>2)</sup></p>
+
+<h4 id="toc_1">Code</h4>
+
+<pre><code class="language-python">class Solution:
+    # @param A, a list of integers
+    # @return a boolean
+    def canJump(self, A):
+        # write your code here
+        
+        if not A:
+            return True
+        
+        farthest = A[0]
+        size = len(A)
+        
+        for i in xrange(size):
+            if i &lt;= farthest and i + A[i] &gt; farthest:
+                farthest = i + A[i]
+        
+        return farthest &gt;= size - 1
+</code></pre>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="14761498162828.html" 
+	        title="Next Post: Jump Game II">Jump Game II &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '14761498562940.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    <script src="asset/chart/all-min.js"></script><script type="text/javascript">$(function(){    var mwebii=0;    var mwebChartEleId = 'mweb-chart-ele-';    $('pre>code').each(function(){        mwebii++;        var eleiid = mwebChartEleId+mwebii;        if($(this).hasClass('language-sequence')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = Diagram.parse($(this).text());            diagram.drawSVG(eleiid,{theme: 'simple'});        }else if($(this).hasClass('language-flow')){            var ele = $(this).addClass('nohighlight').parent();            $('<div id="'+eleiid+'"></div>').insertAfter(ele);            ele.hide();            var diagram = flowchart.parse($(this).text());            diagram.drawSVG(eleiid);        }    });});</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+
+  </body>
+</html>

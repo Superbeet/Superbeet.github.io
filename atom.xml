@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TravelingLight</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://localhost:4000/"/>
+  <updated>2016-10-08T17:46:50.000Z</updated>
+  <id>http://localhost:4000/</id>
+  
+  <author>
+    <name>Superbeet</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>parking_lot</title>
+    <link href="http://localhost:4000/2016/10/08/parking-lot/"/>
+    <id>http://localhost:4000/2016/10/08/parking-lot/</id>
+    <published>2016-10-08T07:43:59.000Z</published>
+    <updated>2016-10-08T17:46:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Parking-Lot"><a href="#Parking-Lot" class="headerlink" title="Parking Lot"></a>Parking Lot</h2><h4 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h4><blockquote>
+<p>Design a parking lot</p>
+</blockquote>
+<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><p>解题分析：我们尝试使用 <strong>抽象</strong> -&gt; <strong>设计对象</strong> -&gt; <strong>设计接口</strong> 的流程</p>
+<h4 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a>抽象</h4><p>在这一步，我们重现现实中车库的工作原理。通常，车库可能有不同的层次，每层都有若干个车位，汽车可以停在车位上。车库的主要功能在于实现车辆入库和车辆出库，根据汽车在车库中停留的时间收费。</p>
+<h4 id="设计对象"><a href="#设计对象" class="headerlink" title="设计对象"></a>设计对象</h4><p>经过抽象分析，我们发现了车位、层次、车库、汽车这些实体。对于每个实体，我们都应该构造一个类去描述它。我们考虑各个实体之间的从属，继承关系：很明显，车库拥有不同层次，每个层次拥有一些车位。因此，车库、层次、车位属于“Has-A”的关系。考虑我们可能希望车库是一个全局都可以访问的变量，而且程序中应该只有一个车库实例，所以我们可以利用单例模式，把车库作为一个单例。进一步考虑汽车实体，现实中，有各种类型的汽车，不同类型的车辆对车位的要求也不一样。然而，汽车具有一些共同属性，比如车长，车宽等等，特别地，对于本例，每辆车都需要记录停车的状态。所以，我们可以考虑从一个汽车基类派生出不同类型的汽车派生类。</p>
+<h4 id="设计接口"><a href="#设计接口" class="headerlink" title="设计接口"></a>设计接口</h4><p>车库需要与用户进行交互，因此应该提供车辆入库和车辆出库的接口。车辆入库时，需要从最底层依次向上寻找可用的车位，因此，寻找车位应该一个是由层次提供的接口，返回一个车位。车库把这个车位提供给一个汽车实例，并且标记车位不可用。当车辆出库时，我们需要汽车提供它停车位置的信息(因此，车辆需要提供接口返回它停车的位置)，车库需要计算停车费，并且标记车位可用。</p>
+<h4 id="进一步讨论"><a href="#进一步讨论" class="headerlink" title="进一步讨论"></a>进一步讨论</h4><p>我们提供的代码并不是线程安全的，当多个线程同时调用enter和leave的时候，可能造成停车状态的不一致，需要通过加锁解决。其次，查找车位的时候我们实现了最简单的线性查找。<strong>事实上，我们可以用一个队列记录可用的车位</strong>，每次只需要弹出一个即可。那对于不同的车位类型怎么处理？我们可以用多个队列记录可用的车位，每个队列对应一个车型。</p>
+<p>OO经典题了<br>ParkingLot is a class.<br>ParkingSpace is a class.<br>ParkingSpace has an Entrance.<br>Entrance has a location or more specifically, distance from Entrance.<br>ParkingLotSign is a class.<br>ParkingLot has a ParkingLotSign.<br>ParkingLot has a finite number of ParkingSpaces.<br>HandicappedParkingSpace is a subclass of ParkingSpace.<br>RegularParkingSpace is a subclass of ParkingSpace.<br>CompactParkingSpace is a subclass of ParkingSpace.<br>ParkingLot keeps array of ParkingSpaces, and a separate array of vacant<br>Parking</p>
+<h4 id="Vehicle"><a href="#Vehicle" class="headerlink" title="Vehicle"></a>Vehicle</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Vehicle</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    <span class="keyword">int</span>     length;</div><div class="line">	    <span class="keyword">int</span>     width;</div><div class="line">	    bool    parked;</div><div class="line">	    Spot    *spot;</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="comment">// omit some setters / getters</span></div><div class="line">	    <span class="comment">// virtual function here because subclasses will have different behavior</span></div><div class="line">	    <span class="function">virtual SpotType <span class="title">getRequiredSpotType</span><span class="params">()</span> </span>= <span class="number">0</span>;</div><div class="line">	    <span class="comment">// no need for virtual functions here because subclasses will have the same "behavior"</span></div><div class="line">	    <span class="function">bool <span class="title">isParked</span><span class="params">()</span></span>;</div><div class="line">	    <span class="function"><span class="keyword">void</span> <span class="title">parkVehicle</span><span class="params">(Spot *s)</span></span>;  <span class="comment">// park at spot S;</span></div><div class="line">	    Spot *removeVehicle();      <span class="comment">// move the vehicle away, return parked spot</span></div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Level"><a href="#Level" class="headerlink" title="Level"></a>Level</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Level</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    vector&lt;Spot&gt; spots;</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="comment">// find an available spot for a vehicle</span></div><div class="line">	    <span class="comment">// return NULL if all spots are taken</span></div><div class="line">	    Spot *findASpot(Vehicle *v);    </div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Parking-Lot-1"><a href="#Parking-Lot-1" class="headerlink" title="Parking Lot"></a>Parking Lot</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">ParkingLot</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    vector&lt;Level&gt; levels;</div><div class="line">	    <span class="keyword">static</span> ParkingLot *pInstance;</div><div class="line">	    unordered_map&lt;Vehicle *, time_t&gt; parkingInfo;</div><div class="line">	</div><div class="line">	    ParkingLot();</div><div class="line">	    <span class="comment">// Stop the compiler generating methods of copy the object</span></div><div class="line">	    ParkingLot(<span class="keyword">const</span> ParkingLot &amp;copy);    <span class="comment">// Not Implemented</span></div><div class="line">	    ParkingLot&amp; operator = (<span class="keyword">const</span> ParkingLot &amp; copy);    <span class="comment">// Not Implemented</span></div><div class="line">	</div><div class="line">	    <span class="function">time_t <span class="title">getCurrentTime</span><span class="params">()</span></span>;</div><div class="line">	    <span class="function"><span class="keyword">double</span> <span class="title">calculateFee</span><span class="params">(Vehicle *v)</span></span>;</div><div class="line">	</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="keyword">static</span> ParkingLot *getInstance();</div><div class="line">	    <span class="comment">// <span class="doctag">NOTE:</span> vehicleEnter and leave is not thread safe!</span></div><div class="line">	    <span class="function">ErrorCode <span class="title">vehicleEnter</span><span class="params">(Vehicle *v)</span></span>;</div><div class="line">	    <span class="function">ErrorCode <span class="title">vehicleLeave</span><span class="params">(Vehicle *v, <span class="keyword">double</span> *fee)</span></span>;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div></pre></td><td class="code"><pre><div class="line">// define some constants</div><div class="line">enum ErrorCode &#123;</div><div class="line">    NO_ERROR,</div><div class="line">    ERROR</div><div class="line">&#125;;</div><div class="line"></div><div class="line">enum SpotType &#123;</div><div class="line">    COMPACT,</div><div class="line">    SUV,</div><div class="line">    RESERVED</div><div class="line">&#125;;</div><div class="line">#define NO_PARKING (-1)</div><div class="line"></div><div class="line">class Spot &#123;</div><div class="line">public:</div><div class="line">    bool     available;</div><div class="line">    SpotType type;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">class Vehicle &#123;</div><div class="line">private:</div><div class="line">    int     length;</div><div class="line">    int     width;</div><div class="line">    bool    parked;</div><div class="line">    Spot    *spot;</div><div class="line">public:</div><div class="line">    // omit some setters / getters</div><div class="line">    // virtual function here because subclasses will have different behavior</div><div class="line">    virtual SpotType getRequiredSpotType() = 0;</div><div class="line">    // no need for virtual functions here because subclasses will have the same "behavior"</div><div class="line">    bool isParked();</div><div class="line">    void parkVehicle(Spot *s);  // park at spot S;</div><div class="line">    Spot *removeVehicle();      // move the vehicle away, return parked spot</div><div class="line">&#125;;</div><div class="line"></div><div class="line">//every type of vehicle has default value of length and width;</div><div class="line">class Motor:public Vehicle&#123;&#125;;</div><div class="line">class Car:public Vehicle&#123;&#125;;</div><div class="line">class SUV:public Vehicle&#123;&#125;;</div><div class="line"></div><div class="line">class Level &#123;</div><div class="line">private:</div><div class="line">    vector&lt;Spot&gt; spots;</div><div class="line">public:</div><div class="line">    // find an available spot for a vehicle</div><div class="line">    // return NULL if all spots are taken</div><div class="line">    Spot *findASpot(Vehicle *v);    </div><div class="line">&#125;;</div><div class="line"></div><div class="line">class ParkingLot &#123;</div><div class="line">private:</div><div class="line">    vector&lt;Level&gt; levels;</div><div class="line">    static ParkingLot *pInstance;</div><div class="line">    unordered_map&lt;Vehicle *, time_t&gt; parkingInfo;</div><div class="line"></div><div class="line">    ParkingLot();</div><div class="line">    // Stop the compiler generating methods of copy the object</div><div class="line">    ParkingLot(const ParkingLot &amp;copy);    // Not Implemented</div><div class="line">    ParkingLot&amp; operator = (const ParkingLot &amp; copy);    // Not Implemented</div><div class="line"></div><div class="line">    time_t getCurrentTime();</div><div class="line">    double calculateFee(Vehicle *v);</div><div class="line"></div><div class="line">public:</div><div class="line">    static ParkingLot *getInstance();</div><div class="line">    // NOTE: vehicleEnter and leave is not thread safe!</div><div class="line">    ErrorCode vehicleEnter(Vehicle *v);</div><div class="line">    ErrorCode vehicleLeave(Vehicle *v, double *fee);</div><div class="line">&#125;;</div><div class="line"></div><div class="line">ErrorCode ParkingLot::vehicleEnter(Vehicle *v) &#123;</div><div class="line">    Spot *spot = NULL;</div><div class="line">    for (int i = 0; i &lt; levels.size();i++) &#123;</div><div class="line">        spot = levels[i].findASpot(v);</div><div class="line">        if (spot)</div><div class="line">            break;</div><div class="line">    &#125;</div><div class="line">    if (!spot) &#123;</div><div class="line">        return ERROR;</div><div class="line">    &#125;</div><div class="line">    v-&gt;parkVehicle(spot);</div><div class="line">    spot-&gt;available = false;</div><div class="line">    parkingInfo[v] = getCurrentTime();</div><div class="line">    return NO_ERROR;</div><div class="line">&#125;</div><div class="line"></div><div class="line">ErrorCode ParkingLot::vehicleLeave(Vehicle *v, double *fee) &#123;</div><div class="line">    *fee = 0;</div><div class="line">    if (!v-&gt;isParked()) &#123;</div><div class="line">        return ERROR;</div><div class="line">    &#125;</div><div class="line">    Spot *spot = v-&gt;removeVehicle();</div><div class="line">    spot-&gt;available = true;</div><div class="line">    *fee = calculateFee(v);</div><div class="line">    parkingInfo.erase(v);</div><div class="line">    return NO_ERROR;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Parking-Lot&quot;&gt;&lt;a href=&quot;#Parking-Lot&quot; class=&quot;headerlink&quot; title=&quot;Parking Lot&quot;&gt;&lt;/a&gt;Parking Lot&lt;/h2&gt;&lt;h4 id=&quot;出处&quot;&gt;&lt;a href=&quot;#出处&quot; class=&quot;head
+    
+    </summary>
+    
+      <category term="interview" scheme="http://localhost:4000/categories/interview/"/>
+    
+      <category term="oodesign" scheme="http://localhost:4000/categories/interview/oodesign/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>essay1</title>
+    <link href="http://localhost:4000/2016/10/07/essay1/"/>
+    <id>http://localhost:4000/2016/10/07/essay1/</id>
+    <published>2016-10-08T04:42:47.000Z</published>
+    <updated>2016-10-08T04:43:46.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="essay" scheme="http://localhost:4000/categories/essay/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>shuati</title>
+    <link href="http://localhost:4000/2016/10/07/shuati/"/>
+    <id>http://localhost:4000/2016/10/07/shuati/</id>
+    <published>2016-10-08T04:30:37.000Z</published>
+    <updated>2016-10-08T05:05:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>隐藏文章</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;隐藏文章&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="interview" scheme="http://localhost:4000/categories/interview/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test_tech_category</title>
+    <link href="http://localhost:4000/2016/10/07/test-tech-category/"/>
+    <id>http://localhost:4000/2016/10/07/test-tech-category/</id>
+    <published>2016-10-08T03:37:27.000Z</published>
+    <updated>2016-10-08T04:27:26.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="tech" scheme="http://localhost:4000/categories/tech/"/>
+    
+    
+      <category term="Git" scheme="http://localhost:4000/tags/Git/"/>
+    
+      <category term="hexo" scheme="http://localhost:4000/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Greedy Algorithm</title>
+    <link href="http://localhost:4000/2016/09/24/GreedyAlgorithm/"/>
+    <id>http://localhost:4000/2016/09/24/GreedyAlgorithm/</id>
+    <published>2016-09-25T06:41:40.000Z</published>
+    <updated>2016-09-26T00:10:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Largest-Number"><a href="#Largest-Number" class="headerlink" title="Largest Number"></a>Largest Number</h3><p>Given a list of non negative integers, arrange them such that they form the largest number.</p>
+<blockquote>
+<p>Notice<br>The result may be very large, so you need to return a string instead of an integer.</p>
+</blockquote>
+<p>Example<br>Given <code>[1, 20, 23, 4, 8]</code>, the largest formed number is <code>8423201</code>.</p>
+<p>Challenge<br>Do it in O(nlogn) time complexity.</p>
+<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><p>Convert the number list to a string list. Build a comparator to sort the string elements in a certain order.</p>
+<p><strong>注意: 学习如何build a comparator, Python也是有这个功能的。</strong></p>
+<h4 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span>	</div><div class="line">    <span class="comment">#@param num: A list of non negative integers</span></div><div class="line">    <span class="comment">#@return: A string</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">largestNumber</span><span class="params">(self, num)</span>:</span></div><div class="line">        <span class="comment"># write your code here</span></div><div class="line">        </div><div class="line">        strs = []</div><div class="line">        </div><div class="line">        <span class="keyword">for</span> number <span class="keyword">in</span> num:</div><div class="line">            strs.append(str(number))</div><div class="line">        </div><div class="line">        strs = sorted(strs, cmp = self.comparator)</div><div class="line">        </div><div class="line">        <span class="keyword">print</span> strs</div><div class="line">        </div><div class="line">        <span class="keyword">if</span> strs[<span class="number">0</span>] == <span class="string">"0"</span>:</div><div class="line">            <span class="keyword">return</span> <span class="string">"0"</span></div><div class="line">        </div><div class="line">        result = <span class="string">""</span></div><div class="line">        </div><div class="line">        <span class="keyword">for</span> string <span class="keyword">in</span> strs:</div><div class="line">            result += string</div><div class="line">        </div><div class="line">        <span class="keyword">return</span> result</div><div class="line">                </div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">comparator</span><span class="params">(self, s1, s2)</span>:</span></div><div class="line">        s1s2 = s1 + s2</div><div class="line">        s2s1 = s2 + s1</div><div class="line">        </div><div class="line">        <span class="keyword">if</span> s2s1 &gt; s1s2:</div><div class="line">            <span class="keyword">return</span> <span class="number">1</span></div><div class="line">        <span class="keyword">elif</span> s1s2 &gt; s2s1:</div><div class="line">            <span class="keyword">return</span> <span class="number">-1</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> <span class="number">0</span></div></pre></td></tr></table></figure>
+<h3 id="Gas-Station"><a href="#Gas-Station" class="headerlink" title="Gas Station"></a>Gas Station</h3><p>There are N gas stations along a circular route, where the amount of gas at station i is gas[i].</p>
+<p>You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.</p>
+<p>Return the starting gas station’s index if you can travel around the circuit once, otherwise return -1.</p>
+<h4 id="Solution-1"><a href="#Solution-1" class="headerlink" title="Solution"></a>Solution</h4><p>Calculate the diff (gas - cost) for each station. Create a local sum and a total sum variables to track the sum of diffs. Local sum is used to find potential starting point, while global sum is to find if there is a solution.</p>
+<h4 id="Code-1"><a href="#Code-1" class="headerlink" title="Code"></a>Code</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></div><div class="line">    <span class="comment"># @param gas, a list of integers</span></div><div class="line">    <span class="comment"># @param cost, a list of integers</span></div><div class="line">    <span class="comment"># @return an integer</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">canCompleteCircuit</span><span class="params">(self, gas, cost)</span>:</span></div><div class="line">        <span class="comment"># write your code here</span></div><div class="line">        </div><div class="line">        diff = [<span class="number">0</span> <span class="keyword">for</span> i <span class="keyword">in</span> range(len(gas))]</div><div class="line">         </div><div class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> xrange(len(gas)):</div><div class="line">            diff[i] = gas[i] - cost[i]</div><div class="line">        </div><div class="line">        res = <span class="number">0</span> <span class="comment"># initial from pos 0</span></div><div class="line">        local_sum = <span class="number">0</span></div><div class="line">        total_sum = <span class="number">0</span></div><div class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> xrange(len(gas)):</div><div class="line">            local_sum += diff[j]</div><div class="line">            total_sum += diff[j]</div><div class="line">            </div><div class="line">            <span class="keyword">if</span> local_sum &lt; <span class="number">0</span>:</div><div class="line">                res = j + <span class="number">1</span></div><div class="line">                local_sum = <span class="number">0</span></div><div class="line">        </div><div class="line">        <span class="keyword">if</span> total_sum &lt; <span class="number">0</span>:</div><div class="line">            <span class="keyword">return</span> <span class="number">-1</span></div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> res</div></pre></td></tr></table></figure>
+<h3 id="Delete-Digits"><a href="#Delete-Digits" class="headerlink" title="Delete Digits"></a>Delete Digits</h3><p>Given string A representative a positive integer which has N digits, remove any k digits of the number, the remaining digits are arranged according to the original order to become a new positive integer.</p>
+<p>Find the smallest integer after remove k digits.<br>N &lt;= 240 and k &lt;= N,</p>
+<p>Example<br>Given an integer A = “178542”, k = 4</p>
+<p>return a string “12”</p>
+<h4 id="Solution-2"><a href="#Solution-2" class="headerlink" title="Solution"></a>Solution</h4><p>求最小<br>Create a queue to track the remaining digits, and count how many digits have been removed. If the number is not enough, trim the tailing part of the string.</p>
+<p>注意：<br>“0” 不能进stack, 如果stack是空的话。<br><code>n = 90249, k = 2, result = 24 (024)</code></p>
+<h4 id="Code-2"><a href="#Code-2" class="headerlink" title="Code"></a>Code</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></div><div class="line">    <span class="string">"""</span></div><div class="line">    @param A: A positive integer which has N digits, A is a string.</div><div class="line">    @param k: Remove k digits.</div><div class="line">    @return: A string</div><div class="line">    """</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">DeleteDigits</span><span class="params">(self, A, k)</span>:</span></div><div class="line">        <span class="keyword">if</span> k &gt; len(str(A)):</div><div class="line">            <span class="keyword">return</span> <span class="string">""</span></div><div class="line">            </div><div class="line">        stack = []</div><div class="line">        n = len(A)</div><div class="line">        count = <span class="number">0</span></div><div class="line">        </div><div class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> xrange(n):</div><div class="line">            <span class="keyword">while</span> stack <span class="keyword">and</span> stack[<span class="number">-1</span>] &gt; A[i] <span class="keyword">and</span> count &lt; k:</div><div class="line">                stack.pop()</div><div class="line">                count += <span class="number">1</span></div><div class="line">            </div><div class="line">            <span class="keyword">if</span> A[i] != <span class="string">"0"</span> <span class="keyword">or</span> len(stack) != <span class="number">0</span>:</div><div class="line">                stack.append(A[i])</div><div class="line">        </div><div class="line">        <span class="keyword">if</span> count &lt; k:   <span class="comment"># remove less elements than enough</span></div><div class="line">            string = stack[: len(stack) - (k - count)]</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            string = stack</div><div class="line">            </div><div class="line">        <span class="keyword">return</span> <span class="string">""</span>.join(string)</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Largest-Number&quot;&gt;&lt;a href=&quot;#Largest-Number&quot; class=&quot;headerlink&quot; title=&quot;Largest Number&quot;&gt;&lt;/a&gt;Largest Number&lt;/h3&gt;&lt;p&gt;Given a list of non ne
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新文章</title>
+    <link href="http://localhost:4000/2016/09/24/%E6%96%B0%E6%96%87%E7%AB%A0/"/>
+    <id>http://localhost:4000/2016/09/24/新文章/</id>
+    <published>2016-09-25T04:34:48.000Z</published>
+    <updated>2016-09-25T06:49:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试一下MWeb和Github是否联动</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;测试一下MWeb和Github是否联动&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://localhost:4000/2016/09/24/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://localhost:4000/2016/09/24/第一篇文章/</id>
+    <published>2016-09-24T23:20:15.000Z</published>
+    <updated>2016-09-25T03:47:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is the main content of the first article. I use Hexo, MWeb to build this blog. Keep persistency and moving forward.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is the main content of the first article. I use Hexo, MWeb to build this blog. Keep persistency and moving forward.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://localhost:4000/2016/09/24/hello-world/"/>
+    <id>http://localhost:4000/2016/09/24/hello-world/</id>
+    <published>2016-09-24T23:17:59.000Z</published>
+    <updated>2016-09-24T23:17:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
