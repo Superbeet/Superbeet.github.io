@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://localhost:4000/2016/10/02/hello-world/</loc>
+    <lastmod>2016-10-18T06:39:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo基本命令</title>
+        <pubTime>2016-10-03T04:42:47.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="tech" url="http://localhost:4000/categories/tech/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://localhost:4000/2016/10/07/2016-10-16/</loc>
     <lastmod>2016-10-18T06:35:10.000Z</lastmod>
     <data>
@@ -45,42 +65,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://localhost:4000/2016/09/24/hello-world/</loc>
-    <lastmod>2016-10-15T00:12:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo基本命令</title>
-        <pubTime>2016-09-24T23:17:59.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://localhost:4000/2016/10/08/parking-lot/</loc>
-    <lastmod>2016-10-11T04:02:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>parking_lot</title>
-        <pubTime>2016-10-08T07:43:59.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="interviews" url="http://localhost:4000/categories/interviews/"/>
-          
-             
-              <breadCrumb title="oodesign" url="http://localhost:4000/categories/interviews/oodesign/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
