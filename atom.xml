@@ -55,9 +55,10 @@
     <link href="http://localhost:4000/2016/10/07/2016-10-16/"/>
     <id>http://localhost:4000/2016/10/07/2016-10-16/</id>
     <published>2016-10-08T04:42:47.000Z</published>
-    <updated>2016-10-18T06:26:46.000Z</updated>
+    <updated>2016-10-18T06:35:10.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人缺处处能得到贵人相助。有这个思想的人往往是把结果和过程弄反了。笑来老师的这期文章给出了非常逻辑性的答案。</p>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人却处处能得到贵人相助。产生这个思想的原因，往往是当事人把因果关系弄反了。笑来老师的这期文章给出了非常逻辑性的答案。</p>
+<a id="more"></a>
 <h2 id="智商高，情商低？"><a href="#智商高，情商低？" class="headerlink" title="智商高，情商低？"></a>智商高，情商低？</h2><p>首先，我们要理解一个问题，考试高的人并不等于智商高。当然很多学霸确实在各种天份上都高人一筹，但也有很多人只是考试机器。对这类人来说他们只是『考』商高，非智商高。</p>
 <p>其实智商和情商本质上是统一的，情商和智商本身都是和大脑相关的评价标准，一个智商高的人往往懂得如何投资未来积累资源。而这些也就形成了高情商。</p>
 <h2 id="如何遇见贵人"><a href="#如何遇见贵人" class="headerlink" title="如何遇见贵人"></a>如何遇见贵人</h2><p>笑来老师的母亲从小就教育他，一个人只有自己首先得是个贵人才能遇到贵人。</p>
@@ -84,7 +85,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人缺处处能得到贵人相助。有这个思想的人往往是把结果和过程弄反了
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人却处处能得到贵人相助。产生这个思想的原因，往往是当事人把因果关系弄反了。笑来老师的这期文章给出了非常逻辑性的答案。&lt;/p&gt;
     
     </summary>
     
@@ -102,7 +103,7 @@
     <link href="http://localhost:4000/2016/10/06/blog_opening/"/>
     <id>http://localhost:4000/2016/10/06/blog_opening/</id>
     <published>2016-10-07T04:42:47.000Z</published>
-    <updated>2016-10-18T06:27:58.000Z</updated>
+    <updated>2016-10-18T06:32:51.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直都想搭建一个属于自己博客，一直到这次换工作期间才真正实行。非常感谢一位素未平生的博主『小土刀』，他的博客给了我很大的动力，在此也强力推荐一下 <a href="http://wdxtub.com" target="_blank" rel="external">link</a>。在选择用什么技术来搭建博客的时候考虑了很多种的方案，归类总结起来有以下三种：</p>
 <ol>
@@ -110,6 +111,7 @@
 <li>自己搭建静态网站</li>
 <li>自己搭建动态网站</li>
 </ol>
+<a id="more"></a>
 <h3 id="1-使用第三方博客"><a href="#1-使用第三方博客" class="headerlink" title="1. 使用第三方博客"></a>1. 使用第三方博客</h3><p>在朋友的推荐下，尝试了<code>SegmentFault</code> <code>OSChina</code> <code>简书</code>，总体来说都大同小异。功能上大部分博客都支持markdown语法，代码高亮，文档目录索引等功能。不过因为是第三方平台，免不了有一些文章推荐，广告信息等等。总觉得不够清爽，于是下定决心放弃使用第三方博客。</p>
 <h3 id="2-自己搭建静态博客"><a href="#2-自己搭建静态博客" class="headerlink" title="2. 自己搭建静态博客"></a>2. 自己搭建静态博客</h3><p>说到静态博客就不得不提到大名鼎鼎的Jelly，网上文档很多，搭建起来并没有什么难度。最后出来的默认效果更像是一个online resume，并不太符合我的需求。之后看到了Hexo这个比较新的framework。Hexo是由一位台湾程序员开发的，所以整体的设计很符合亚洲人的口味。简洁大方的同时，可定制化程度也很高。</p>
 <p>于是，我继续Hexo和Github Pages搭建了一个博客，使用了很流行的NEXT主题。定制化主题其实主要就是修改Hexo默认的几个页面模板，里面使用了wisg语言，当然你也可以使用其他几种常见模板语言。</p>
@@ -125,7 +127,12 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直都想搭建一个属于自己博客，一直到这次换工作期间才真正实行。非常感谢一位素未平生的博主『小土刀』，他的博客给了我很大的动力，在此也强力推荐
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直都想搭建一个属于自己博客，一直到这次换工作期间才真正实行。非常感谢一位素未平生的博主『小土刀』，他的博客给了我很大的动力，在此也强力推荐一下 &lt;a href=&quot;http://wdxtub.com&quot;&gt;link&lt;/a&gt;。在选择用什么技术来搭建博客的时候考虑了很多种的方案，归类总结起来有以下三种：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用第三方的博客网站 &lt;/li&gt;
+&lt;li&gt;自己搭建静态网站&lt;/li&gt;
+&lt;li&gt;自己搭建动态网站&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
