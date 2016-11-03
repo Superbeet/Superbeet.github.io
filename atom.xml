@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>轻旅行Travelight</title>
-  
+  <title>TravelingLight</title>
+  <subtitle>旅行的意义在于沿途的风景</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://travelight.me/"/>
-  <updated>2016-11-03T07:19:51.000Z</updated>
-  <id>http://travelight.me/</id>
+  <link href="http://localhost:4000/"/>
+  <updated>2016-10-11T04:02:54.000Z</updated>
+  <id>http://localhost:4000/</id>
   
   <author>
     <name>Superbeet</name>
@@ -16,518 +16,84 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>通往财富自由之路（第十周） - 如何有效提高元认知能力</title>
-    <link href="http://travelight.me/2016/10/28/road_to_financial_freedom_week_10/"/>
-    <id>http://travelight.me/2016/10/28/road_to_financial_freedom_week_10/</id>
-    <published>2016-10-29T04:42:47.000Z</published>
-    <updated>2016-11-03T07:19:51.000Z</updated>
+    <title>parking_lot</title>
+    <link href="http://localhost:4000/2016/10/08/parking-lot/"/>
+    <id>http://localhost:4000/2016/10/08/parking-lot/</id>
+    <published>2016-10-08T07:43:59.000Z</published>
+    <updated>2016-10-11T04:02:54.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本周文章中，笑来老师介绍了联系元认知能力的三种方法：冥想，兴趣和反思。</p>
-<a id="more"></a>
-<h2 id="冥想"><a href="#冥想" class="headerlink" title="冥想"></a>冥想</h2><p>冥想，是我不得已创造的一个中文词汇，表示一种特殊的训练方式。</p>
-<p>这种可以训练方式非常简单：</p>
-<ul>
-<li>找个计时器，定时15分钟以上（以后再慢慢加长）</li>
-<li>找一个舒服的姿势（起初不一定要用不习惯的「正确姿势」，但最好「挺直脊背」）</li>
-<li>闭眼（有人即使睁眼也能做到）</li>
-<li>缓慢均匀的呼吸（不一定要可以控制）</li>
-<li>把你所有的注意力都放到呼吸商（别在乎自己走神了，发现自己走神就再回来）</li>
-</ul>
-<p>刚开始还挺不容易，因为一不小心就会走神，等你发现的时候，早已经想了半天别的事儿去了。这也就是可以训练的重点：把所有的注意力全部集中到一点，最开始时就是你的呼吸。</p>
-<p>开始的时候你会听到自己的呼吸，能感受到吸进来与胡出去的空气温度及其差异，呼与吸的时间长度略有差异，节奏有时会乱掉。可是，没经验的你很快就会走神，开始注意到呼吸之外的其它东西，比如窗外的杂音，胸腔的起伏等等。于是，你开始能体会到把注意力全部集中并不是那么容易的事情。</p>
-<p>这种「不容易」恰恰才是整个可以训练的核心：你的元认知能力被激活，然后你再反复使用它去调整你的注意力，把所有的注意力都放到一个地方。</p>
-<p>现在已有科学证据表明，这种训练可以直接增大训练者的大脑皮层面积。就是我们去健身房健身，肌肉会增长一样。大脑的沟回也可以通过坐冥想这种方式获得增加。</p>
-<p>网上搜索「Meditation」，你会找到很多更详细的教程，本核心的方法其实就如上文所说。</p>
-<h2 id="兴趣"><a href="#兴趣" class="headerlink" title="兴趣"></a>兴趣</h2><p>每个人在做自己感兴趣的事情时候，很容易进入全神贯注的状态。而「全神贯注」是另一种可以训练元认知能力的有效方法，虽然有些违背直觉。</p>
-<p>这里要区分「主动全神贯注」和「被动全神贯注」的区别。我们在看电影、读小说或者玩游戏的时候也会全神贯注。但这种感觉其实是由于该对象的吸引，我们个体上是被动的，这种被动的全神贯注并不能训练我们的元认知能力。这就是为什么我们需要有一项兴趣的原因。</p>
-<p>一项兴趣给了我们转鱼鱼提升某个特定技能的机会。并且无论在任何一项兴趣中，都已「必须可以练习才能获得进步的技能」。只有满足这个要求，因兴趣而产生的全神贯注，才可能是主动的，才可能对训练元认知能力有所帮助。</p>
-<p>反过来说，想要长时间保持一个兴趣，刻意练习也是至关重要的。没有兴趣，你可能不会尝试坚持去做枯燥的练习，而没有练习，原本的兴趣也会很快枯竭。</p>
-<p>关系图如下：<br><span style="color:red">有兴趣 -&gt; 可以练习 -&gt; 做的更好 -&gt; 更有兴趣 -&gt; 可以继续练习<span></span></span></p>
-<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>古人有云「日三省身」，这并不是圣人才应该有的习惯。反思其实是可以训练元认知能力最高效的手段。</p>
-<p>每天花十分钟左右，反思一下自己的思路和思考结果，琢磨一下自己的想法有没有逻辑谬误？琢磨一下自己的想法从何而来？又缘何有了那么个思路？有没有其他可能的思考结果？琢磨一下自己受到了哪些因素的影响？琢磨一下那些影响因素究竟有没有根基，有没有道理。</p>
-<p>在我个人的印象中，反思活动最初常常是「无疾而终」的，想着想着就乱了，想着想着就放弃了。这只是刚开始时候的现象，到达一定的时候你的思路会突然之间开始清晰起来，反思的效率也会大幅度提高。量变引起质变。</p>
-<h4 id="深度思考"><a href="#深度思考" class="headerlink" title="深度思考"></a>深度思考</h4><p>如何控制情绪是很多人都面临的问题，而其实情绪是无法被控制的。解除情绪最好的方法就是追寻其发生的原因，这个过程就是在调用元认知能力。</p>
-<p>如果一个人很生气，这个时候如果他能把注意力放在寻找「我为什么很生气」，努力找到很生气的原因。然后再把注意力放在那个引发情绪的原因上去，能解决就立刻动手解决。不能解决的话，也可以想的开。既然解决不了，生气当然也没有用。</p>
-<p>于是，每一次寻找认清情绪来源的过程，就是一次元认知能力获得锻炼的重大机会。用不了多少次，元认知能力的适时激活就会成为习惯，而所谓的冷静只不过是这个习惯自然而然的结果。</p>
+    <content type="html"><![CDATA[<h2 id="Parking-Lot"><a href="#Parking-Lot" class="headerlink" title="Parking Lot"></a>Parking Lot</h2><h4 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h4><blockquote>
+<p>Design a parking lot</p>
+</blockquote>
+<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h4><p>解题分析：我们尝试使用 <strong>抽象</strong> -&gt; <strong>设计对象</strong> -&gt; <strong>设计接口</strong> 的流程</p>
+<h4 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a>抽象</h4><p>在这一步，我们重现现实中车库的工作原理。通常，车库可能有不同的层次，每层都有若干个车位，汽车可以停在车位上。车库的主要功能在于实现车辆入库和车辆出库，根据汽车在车库中停留的时间收费。</p>
+<h4 id="设计对象"><a href="#设计对象" class="headerlink" title="设计对象"></a>设计对象</h4><p>经过抽象分析，我们发现了车位、层次、车库、汽车这些实体。对于每个实体，我们都应该构造一个类去描述它。我们考虑各个实体之间的从属，继承关系：很明显，车库拥有不同层次，每个层次拥有一些车位。因此，车库、层次、车位属于“Has-A”的关系。考虑我们可能希望车库是一个全局都可以访问的变量，而且程序中应该只有一个车库实例，所以我们可以利用单例模式，把车库作为一个单例。进一步考虑汽车实体，现实中，有各种类型的汽车，不同类型的车辆对车位的要求也不一样。然而，汽车具有一些共同属性，比如车长，车宽等等，特别地，对于本例，每辆车都需要记录停车的状态。所以，我们可以考虑从一个汽车基类派生出不同类型的汽车派生类。</p>
+<h4 id="设计接口"><a href="#设计接口" class="headerlink" title="设计接口"></a>设计接口</h4><p>车库需要与用户进行交互，因此应该提供车辆入库和车辆出库的接口。车辆入库时，需要从最底层依次向上寻找可用的车位，因此，寻找车位应该一个是由层次提供的接口，返回一个车位。车库把这个车位提供给一个汽车实例，并且标记车位不可用。当车辆出库时，我们需要汽车提供它停车位置的信息(因此，车辆需要提供接口返回它停车的位置)，车库需要计算停车费，并且标记车位可用。</p>
+<h4 id="进一步讨论"><a href="#进一步讨论" class="headerlink" title="进一步讨论"></a>进一步讨论</h4><p>我们提供的代码并不是线程安全的，当多个线程同时调用enter和leave的时候，可能造成停车状态的不一致，需要通过加锁解决。其次，查找车位的时候我们实现了最简单的线性查找。<strong>事实上，我们可以用一个队列记录可用的车位</strong>，每次只需要弹出一个即可。那对于不同的车位类型怎么处理？我们可以用多个队列记录可用的车位，每个队列对应一个车型。</p>
+<p>OO经典题了<br>ParkingLot is a class.<br>ParkingSpace is a class.<br>ParkingSpace has an Entrance.<br>Entrance has a location or more specifically, distance from Entrance.<br>ParkingLotSign is a class.<br>ParkingLot has a ParkingLotSign.<br>ParkingLot has a finite number of ParkingSpaces.<br>HandicappedParkingSpace is a subclass of ParkingSpace.<br>RegularParkingSpace is a subclass of ParkingSpace.<br>CompactParkingSpace is a subclass of ParkingSpace.<br>ParkingLot keeps array of ParkingSpaces, and a separate array of vacant<br>Parking</p>
+<h4 id="Vehicle"><a href="#Vehicle" class="headerlink" title="Vehicle"></a>Vehicle</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Vehicle</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    <span class="keyword">int</span>     length;</div><div class="line">	    <span class="keyword">int</span>     width;</div><div class="line">	    bool    parked;</div><div class="line">	    Spot    *spot;</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="comment">// omit some setters / getters</span></div><div class="line">	    <span class="comment">// virtual function here because subclasses will have different behavior</span></div><div class="line">	    <span class="function">virtual SpotType <span class="title">getRequiredSpotType</span><span class="params">()</span> </span>= <span class="number">0</span>;</div><div class="line">	    <span class="comment">// no need for virtual functions here because subclasses will have the same "behavior"</span></div><div class="line">	    <span class="function">bool <span class="title">isParked</span><span class="params">()</span></span>;</div><div class="line">	    <span class="function"><span class="keyword">void</span> <span class="title">parkVehicle</span><span class="params">(Spot *s)</span></span>;  <span class="comment">// park at spot S;</span></div><div class="line">	    Spot *removeVehicle();      <span class="comment">// move the vehicle away, return parked spot</span></div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Level"><a href="#Level" class="headerlink" title="Level"></a>Level</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Level</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    vector&lt;Spot&gt; spots;</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="comment">// find an available spot for a vehicle</span></div><div class="line">	    <span class="comment">// return NULL if all spots are taken</span></div><div class="line">	    Spot *findASpot(Vehicle *v);    </div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Parking-Lot-1"><a href="#Parking-Lot-1" class="headerlink" title="Parking Lot"></a>Parking Lot</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">ParkingLot</span> </span>&#123;</div><div class="line">	<span class="keyword">private</span>:</div><div class="line">	    vector&lt;Level&gt; levels;</div><div class="line">	    <span class="keyword">static</span> ParkingLot *pInstance;</div><div class="line">	    unordered_map&lt;Vehicle *, time_t&gt; parkingInfo;</div><div class="line">	</div><div class="line">	    ParkingLot();</div><div class="line">	    <span class="comment">// Stop the compiler generating methods of copy the object</span></div><div class="line">	    ParkingLot(<span class="keyword">const</span> ParkingLot &amp;copy);    <span class="comment">// Not Implemented</span></div><div class="line">	    ParkingLot&amp; operator = (<span class="keyword">const</span> ParkingLot &amp; copy);    <span class="comment">// Not Implemented</span></div><div class="line">	</div><div class="line">	    <span class="function">time_t <span class="title">getCurrentTime</span><span class="params">()</span></span>;</div><div class="line">	    <span class="function"><span class="keyword">double</span> <span class="title">calculateFee</span><span class="params">(Vehicle *v)</span></span>;</div><div class="line">	</div><div class="line">	<span class="keyword">public</span>:</div><div class="line">	    <span class="keyword">static</span> ParkingLot *getInstance();</div><div class="line">	    <span class="comment">// <span class="doctag">NOTE:</span> vehicleEnter and leave is not thread safe!</span></div><div class="line">	    <span class="function">ErrorCode <span class="title">vehicleEnter</span><span class="params">(Vehicle *v)</span></span>;</div><div class="line">	    <span class="function">ErrorCode <span class="title">vehicleLeave</span><span class="params">(Vehicle *v, <span class="keyword">double</span> *fee)</span></span>;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h4 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div></pre></td><td class="code"><pre><div class="line">// define some constants</div><div class="line">enum ErrorCode &#123;</div><div class="line">    NO_ERROR,</div><div class="line">    ERROR</div><div class="line">&#125;;</div><div class="line"></div><div class="line">enum SpotType &#123;</div><div class="line">    COMPACT,</div><div class="line">    SUV,</div><div class="line">    RESERVED</div><div class="line">&#125;;</div><div class="line">#define NO_PARKING (-1)</div><div class="line"></div><div class="line">class Spot &#123;</div><div class="line">public:</div><div class="line">    bool     available;</div><div class="line">    SpotType type;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">class Vehicle &#123;</div><div class="line">private:</div><div class="line">    int     length;</div><div class="line">    int     width;</div><div class="line">    bool    parked;</div><div class="line">    Spot    *spot;</div><div class="line">public:</div><div class="line">    // omit some setters / getters</div><div class="line">    // virtual function here because subclasses will have different behavior</div><div class="line">    virtual SpotType getRequiredSpotType() = 0;</div><div class="line">    // no need for virtual functions here because subclasses will have the same "behavior"</div><div class="line">    bool isParked();</div><div class="line">    void parkVehicle(Spot *s);  // park at spot S;</div><div class="line">    Spot *removeVehicle();      // move the vehicle away, return parked spot</div><div class="line">&#125;;</div><div class="line"></div><div class="line">//every type of vehicle has default value of length and width;</div><div class="line">class Motor:public Vehicle&#123;&#125;;</div><div class="line">class Car:public Vehicle&#123;&#125;;</div><div class="line">class SUV:public Vehicle&#123;&#125;;</div><div class="line"></div><div class="line">class Level &#123;</div><div class="line">private:</div><div class="line">    vector&lt;Spot&gt; spots;</div><div class="line">public:</div><div class="line">    // find an available spot for a vehicle</div><div class="line">    // return NULL if all spots are taken</div><div class="line">    Spot *findASpot(Vehicle *v);    </div><div class="line">&#125;;</div><div class="line"></div><div class="line">class ParkingLot &#123;</div><div class="line">private:</div><div class="line">    vector&lt;Level&gt; levels;</div><div class="line">    static ParkingLot *pInstance;</div><div class="line">    unordered_map&lt;Vehicle *, time_t&gt; parkingInfo;</div><div class="line"></div><div class="line">    ParkingLot();</div><div class="line">    // Stop the compiler generating methods of copy the object</div><div class="line">    ParkingLot(const ParkingLot &amp;copy);    // Not Implemented</div><div class="line">    ParkingLot&amp; operator = (const ParkingLot &amp; copy);    // Not Implemented</div><div class="line"></div><div class="line">    time_t getCurrentTime();</div><div class="line">    double calculateFee(Vehicle *v);</div><div class="line"></div><div class="line">public:</div><div class="line">    static ParkingLot *getInstance();</div><div class="line">    // NOTE: vehicleEnter and leave is not thread safe!</div><div class="line">    ErrorCode vehicleEnter(Vehicle *v);</div><div class="line">    ErrorCode vehicleLeave(Vehicle *v, double *fee);</div><div class="line">&#125;;</div><div class="line"></div><div class="line">ErrorCode ParkingLot::vehicleEnter(Vehicle *v) &#123;</div><div class="line">    Spot *spot = NULL;</div><div class="line">    for (int i = 0; i &lt; levels.size();i++) &#123;</div><div class="line">        spot = levels[i].findASpot(v);</div><div class="line">        if (spot)</div><div class="line">            break;</div><div class="line">    &#125;</div><div class="line">    if (!spot) &#123;</div><div class="line">        return ERROR;</div><div class="line">    &#125;</div><div class="line">    v-&gt;parkVehicle(spot);</div><div class="line">    spot-&gt;available = false;</div><div class="line">    parkingInfo[v] = getCurrentTime();</div><div class="line">    return NO_ERROR;</div><div class="line">&#125;</div><div class="line"></div><div class="line">ErrorCode ParkingLot::vehicleLeave(Vehicle *v, double *fee) &#123;</div><div class="line">    *fee = 0;</div><div class="line">    if (!v-&gt;isParked()) &#123;</div><div class="line">        return ERROR;</div><div class="line">    &#125;</div><div class="line">    Spot *spot = v-&gt;removeVehicle();</div><div class="line">    spot-&gt;available = true;</div><div class="line">    *fee = calculateFee(v);</div><div class="line">    parkingInfo.erase(v);</div><div class="line">    return NO_ERROR;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本周文章中，笑来老师介绍了联系元认知能力的三种方法：冥想，兴趣和反思。&lt;/p&gt;
+      &lt;h2 id=&quot;Parking-Lot&quot;&gt;&lt;a href=&quot;#Parking-Lot&quot; class=&quot;headerlink&quot; title=&quot;Parking Lot&quot;&gt;&lt;/a&gt;Parking Lot&lt;/h2&gt;&lt;h4 id=&quot;出处&quot;&gt;&lt;a href=&quot;#出处&quot; class=&quot;head
     
     </summary>
     
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
+      <category term="interviews" scheme="http://localhost:4000/categories/interviews/"/>
     
+      <category term="oodesign" scheme="http://localhost:4000/categories/interviews/oodesign/"/>
     
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通往财富自由之路（第九周） - 你应该拥有最重要的能力「元认知」</title>
-    <link href="http://travelight.me/2016/10/27/road_to_financial_freedom_week_9/"/>
-    <id>http://travelight.me/2016/10/27/road_to_financial_freedom_week_9/</id>
-    <published>2016-10-28T04:42:47.000Z</published>
-    <updated>2016-11-01T00:59:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本周内容中，笑来老师提出了一个可以解释个体间能力差异的决定性能力「元认知」能力。并且指出了元认知能可以锻炼的，本质上和我们锻炼肌肉原理类似。</p>
-<a id="more"></a>
-<h2 id="元认知能力"><a href="#元认知能力" class="headerlink" title="元认知能力"></a>元认知能力</h2><p>首先我们要给「元认知」这个概念下个定义。科学上对「元认知」解释如下。</p>
-<blockquote>
-<p>Metacognition:<br>awareness and understanding of one’s own thought processes</p>
-<p>元认知：<br>对自己的思考过程的认知与理解</p>
-</blockquote>
-<p>你的「元认知」被激活，开始发挥作用的过程中，你开始检视自己的认知过程。<strong>元认知能力的强弱，决定一个人每个方面的强弱</strong>，甚至可以一点都不夸张地讲：</p>
-<blockquote>
-<p>一个人的财富创造能力最终也只与元认知能力有关。其它的都是附属因素。</p>
-</blockquote>
-<p>从最底层的来看，元认知能力起作用的时候会伴随如下几种效果：</p>
-<ul>
-<li>哦，我原来是这么想的</li>
-<li>恩？我这么想难道是不对的吗</li>
-<li>啊！我应该这么想才对啊</li>
-</ul>
-<p>恰恰就是看起来这么简单的思考过来，竟然是绝大多数人穷尽一生都没学会的技能。甚至很多人都不知道有元认知的存在，更不会想过应该去学习锻炼这种技能。</p>
-<p>我们当今的教育中缺少培养「元认知能力」的部分。我们的大脑其实可以有很多个层级。持续升级自己的大脑，不断站在更高的层级去控制下面的烦恼，这才是我们作为人类进化最有效的手段。我们要做自己大脑的主任，而不应该反过来被大脑控制。</p>
-<h2 id="元认知的体现"><a href="#元认知的体现" class="headerlink" title="元认知的体现"></a>元认知的体现</h2><p>元认知能力的其中一个体现就是所谓的「情商」。</p>
-<p>事实上，前面的文章中笑来老师也提到过「情商」是个伪概念。被认为情商差的人，本质上来看，其实就是无法正确理解他人的感受。而无法正确理解他人的感受其实来自于元认知的欠缺。缺乏元认知能力的人不能理解自己的思想，就更不可能理解他人的思想，这种情况下「情商」谈何说起。</p>
-<p>所谓「情商」和「智商」只是一些外在表现形式，而一个人能否在这些方面获得高分，则取决于它们是否对这些概念有本质的理解。</p>
-<p>看到智商高的人，一般人总觉得就是人家天生聪明，可以轻松解开复杂的数学题目。而不会觉得，对方其实是知道了这些数字背后更深层次的原理。</p>
-<p>看到情商高的人，就会羡慕对方的社交手腕。而不会觉得，对方其实是能够洞察每个人内心深处的需求。</p>
-<p>元认知能力之所以重要，是因为它不光能帮你了解自己，同时还会让你更加了解别人。</p>
-<h2 id="如何提高元认知能力"><a href="#如何提高元认知能力" class="headerlink" title="如何提高元认知能力"></a>如何提高元认知能力</h2><p>大量的研究结果表明，人与人之间的技能差距，来自于「可以锻炼」(Deliberate Practice)。而一个人能够做到「可以锻炼」，唯一能够仰仗的就是元认知能力。并且在可以锻炼的过程中，一个人的元认知能力也在不断被加强。这就是为什么人与人之间的差距会随着时间的推移越来越大的原因。</p>
-<p>想象一下，大脑就像肌肉一样，「健脑」和健身也是一个原理。从身心两方面强化最终可以造就一个强大的人。</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>在下周中，笑来老师会讲解提升元认知能力的方法。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本周内容中，笑来老师提出了一个可以解释个体间能力差异的决定性能力「元认知」能力。并且指出了元认知能可以锻炼的，本质上和我们锻炼肌肉原理类似。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
-    
-    
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通往财富自由之路（第八周） - 摆脱「平庸」的最佳策略</title>
-    <link href="http://travelight.me/2016/10/26/road_to_financial_freedom_week_8/"/>
-    <id>http://travelight.me/2016/10/26/road_to_financial_freedom_week_8/</id>
-    <published>2016-10-27T04:42:47.000Z</published>
-    <updated>2016-10-28T23:20:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>「比较」是人快乐和痛苦的源泉。虽然我们常说，要活出自我，不去比较。但绝大部分人是不可能那么超凡脱俗，比较本身也没有对错之分。关键是，如果比较产生了挫败感以后，我们应该怎么处理。</p>
-<p>答案很简单，我们可以一味的自我安慰，或者选择从坑里爬出来。</p>
-<p>前者显然解决不了任何问题，对人生长远看叶不会有什么正面的影响。那如果选择后者，我们怎么爬出来呢？</p>
-<a id="more"></a>
-<h2 id="多维度竞争"><a href="#多维度竞争" class="headerlink" title="多维度竞争"></a>多维度竞争</h2><p>最直接的解决方法我们很容易想到，那就在某个技能上死磕争取比其他人更强呗。这当然是可行的，但不是唯一的方法，在很多情景中甚至也不是最好的方法。</p>
-<p>在此笑来老师提出了一种方法：发展多维度竞争。</p>
-<p>学过中学数学的同学都知道，在几何术语中：</p>
-<ul>
-<li>一个维度上，大家比的是长度</li>
-<li>两个维度上，大家比的是面积</li>
-<li>三个维度上，大家逼得是体积</li>
-</ul>
-<p>很多时候一个领域的知识，也可以被用在其他领域里。比如「一根筋」就是形容一个人只会在一个维度钻牛角尖，不懂得变通。而「灵活」的人就是懂得转换角度，多维度思考，所以它们常有机会发现新的突破口。</p>
-<h2 id="认识「多维度」竞争"><a href="#认识「多维度」竞争" class="headerlink" title="认识「多维度」竞争"></a>认识「多维度」竞争</h2><p>一个例子可以帮助大家理解多为竞争的结果。从1984年洛杉矶奥运会开始，到今天，国人关注奥运会已经32年了，观察全球的奥运冠军们其实给我们提供了一个观察「顶级选手」的绝佳机会。</p>
-<p>32年前的进拍得住们，今天人们记得的有多少呢？<br>李玉伟，无效选，曾国强，吴数德，陈伟强，姚景远，周继红，许海峰……</p>
-<p>事到如今，大家当然都知道<strong>李宁</strong>和<strong>郎平</strong>，剩下的呢？那为什么李宁和郎平看起来更成功呢？</p>
-<p>答案是：它们两个都是在自己曾经做的最好的维度之外，另外开辟了一个甚至多个维度。</p>
-<p>在一个维度上，第一名只有一个人，可能有20%的人可以算干的好，其他的80%的人就只能是落后的。而如果现在有两个维度，哪怕一个人每个维度都只拿到50分，面积已经是2500了，如果是三个维度，那体积是125,000。注意这里的数字只是「意向」，并不绝对代表事实，但足够说明事实了。</p>
-<p>这就解释了为什么中学老师在许多年之后总是感慨：<br>最终，真正有出息的，都是当年成绩一般般的同学……</p>
-<p>因为在学校里是单维竞争，而进入社会有很多很多其他的维度。</p>
-<h2 id="应该怎么做"><a href="#应该怎么做" class="headerlink" title="应该怎么做"></a>应该怎么做</h2><p>其实一个人也可以是一个「团队」。</p>
-<p>学习了编程你就多了一个工程师，学习了演讲你就多了一个市场部经理，学习了概率统计你就多了一个数据分析师。多学习一门新知识，你就多了一份多为竞争的可能。提升竞争力很重要的一点就是从那个单一维度思维模式的坑中跳出来。</p>
-<p>其实这种多维度的技巧可以运用的地方有很多。</p>
-<p>比如，如果你想要背单词。那就不要只是看着背，而是边看、边写、边说地背、一个维度变成三个维度，效果不说翻三倍，也至少比在哪里眼巴巴地看要好很多。</p>
-<p>再比如，当你需要给别人解释问题的时候，运用的维度越多，对方能够理解的概率也就越大。</p>
-<p>只要细心，其实有很多地方都可以借助多维度发挥巨大的作用。</p>
-<h2 id="乔布斯与「苹果」"><a href="#乔布斯与「苹果」" class="headerlink" title="乔布斯与「苹果」"></a>乔布斯与「苹果」</h2><p>Steve Jobs的成功也是这种策略的完美例子。当早起的极客们痴迷于各种技术参数之时，乔布斯凭直觉给个人电脑加上了另外一个别人没有考虑到的维度：艺术设计。随着时间越久，这个维度带来的合成竞争力越来越大。</p>
-<p>事实也证明：</p>
-<blockquote>
-<p><span style="color:red">跨界成本越大则越有可能获得极大的利润。</span></p>
-</blockquote>
-<p>今天在性能上可以和苹果比拼的公司不少，但是加上了艺术设计这个维度之后，放眼望去几乎找不到任何对手。</p>
-<p>由于跨界成本大，所以在还没开始之前，苹果就已经甩掉了大部分竞争者。而此时需要做的，就是按部就班地把自己的事情做好即可。</p>
-<blockquote>
-<p>在这里我想做一个评注：近几年其他公司也越来越重视产品的艺术设计，苹果的优势在迅速变小。如果苹果还不开发一个新的领域的话，他最终会被其他公司超过。并且很有可能该公司是一个跨界公司。</p>
-</blockquote>
-<h2 id="跨界"><a href="#跨界" class="headerlink" title="跨界"></a>跨界</h2><p>「跨界」，是一个很时髦的词汇。事实上，所有的跨界者都会不由自主的深谙此中道理：每次跨界，都是给自己扩展一个新的维度。</p>
-<p>一旦跨界积累成功，实力或者竞争力的提升，只能是「几何」级别的，绝对不可能仅仅是「每天进步一点点」那么简单。这种策略，就是那种知道的话就很简单很自然，不知道的话，就会「百思不得其解」。这也是为什么很多出色的企业家在公司本身业务发展良好的时候会想着跨界，因为它们明白多维度竞争的巨大优势。</p>
-<h2 id="一「专」多能"><a href="#一「专」多能" class="headerlink" title="一「专」多能"></a>一「专」多能</h2><p>能够进行多维竞争的前提是：你至少要在一个维度上足够突出。</p>
-<p>比如你赖以生存的维度不足够突出，无法满足你的基础成本。拿在这个维度上你的得分相当于是负的。这样其他领域无论有什么出彩的成绩，最后乘出来的「面积」、「体积」都只能是负的。</p>
-<p><strong>这就好比如果连最基本的生活必须开支都无法满足，其他维度的努力都只能被视为「不务正业」。</strong></p>
-<p>其实无论是但维度死磕，还是多维度的拓展，我们的目的都是拿到一个相对来说的「更高分」。所以每个人都应该<strong>根据自己的现有情况，规划一个最适合自己的路径。</strong></p>
-<p>如果暂时没有足够突出的维度，那就好好打磨自己的技能；如果已经在某一维度足够优秀，不要沉浸鱼已有的成绩中， 不妨换个维度去突破一下自己的局限。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在当今这个多元化的社会，一个人的能力不仅仅来自于单一领域的发展。一「专」多能是一种很好的途径，培养一个维度上竞争优势，然后发展其他维度上的能力，最终或者很强的综合竞争力。这种思路我会应用到今后的个人发展规划中。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;「比较」是人快乐和痛苦的源泉。虽然我们常说，要活出自我，不去比较。但绝大部分人是不可能那么超凡脱俗，比较本身也没有对错之分。关键是，如果比较产生了挫败感以后，我们应该怎么处理。&lt;/p&gt;
-&lt;p&gt;答案很简单，我们可以一味的自我安慰，或者选择从坑里爬出来。&lt;/p&gt;
-&lt;p&gt;前者显然解决不了任何问题，对人生长远看叶不会有什么正面的影响。那如果选择后者，我们怎么爬出来呢？&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
-    
-    
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通往财富自由之路（第七周） - 什么是落后？</title>
-    <link href="http://travelight.me/2016/10/25/road_to_financial_freedom_week_7/"/>
-    <id>http://travelight.me/2016/10/25/road_to_financial_freedom_week_7/</id>
-    <published>2016-10-26T04:42:47.000Z</published>
-    <updated>2016-10-28T06:37:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="「落后」的定义"><a href="#「落后」的定义" class="headerlink" title="「落后」的定义"></a>「落后」的定义</h2><p>首先笑来老师提出一个问题『是不是平均水平以上就不是落后了？』以常识来回答，我们大部分人都会回答是啊，我已经超过了大部分人的平均水平，难道还算落后吗？</p>
-<p>要回答这个问题，这里笑来老师提到了一个很有趣的现象叫「乌比冈湖效应」Lake Wobegon Effect.</p>
-<a id="more"></a>
-<blockquote>
-<p><strong>Lake Wobegon Effect「乌比冈湖效应」</strong></p>
-<p>We tend to over-estimate our abilities and achievements, particularly in comparison with other people.</p>
-<p>Most importantly, we like to consider ourselves ‘above average’. High achievers (or those who consider themselves to be such) think themselves in the top X percent, where X may be 25, 10, 5, 2 or 1, depending on the frame of reference.</p>
-<p>This happens largely because we derive our sense of self-worth in contrast with other people. Thus, rather than considering myself ‘good’, I actually seek to be ‘better’.</p>
-<p>Lake Wobegon appears in the radio series ‘A Prairie Home Companion’, by Garrison Keillor, where “all the children are above average”.</p>
-</blockquote>
-<p>一个简单的例子就是，接近90%的人认为自己的驾驶水平处于平均水平以上。这显然是不可能的，可是这种违背现实的幻觉确实存在。</p>
-<p>另一个可以使用的工具就是我们熟悉的「二八定律」。世界上百分之八十的财富掌握在百分之二十的人手中。从这个监督看，百分之二十以后就是落后的。</p>
-<h2 id="「恐惧」使人进步"><a href="#「恐惧」使人进步" class="headerlink" title="「恐惧」使人进步"></a>「恐惧」使人进步</h2><p>由于有了互联网，世界变得更扁平，每个人都可以感知到这个世界的全部。想彻底的做一辈子井底之蛙几乎不可能。</p>
-<p>知识社群的兴起，贩卖知识变成可能。因为现在大家越来越发现，原来那些成功的人，真的知道很多大家不知道的事情，不知道的方法。</p>
-<p>当每个人都连接在一起的时候，对于知识的渴求是异常强烈的，因为人与人之间的差异明显可见。甚至，这种渴求已经成为一种恐惧 —— 害怕落后的恐惧。</p>
-<p>这个恐惧是应该存在的并且是良性的。</p>
-<ul>
-<li>过去，百分之四十之后是落后</li>
-<li>现在，你以为百分之二十以后是落后，</li>
-<li>现在，实际上有可能百分之一之后都是落后</li>
-<li>将来，千分之一、万分之一之后都是落后</li>
-</ul>
-<p>一个更为恐怖的趋势：<strong>人工智能在崛起，大多数人正走在越来越没用的路上。</strong>想想罢：你身边有多少人真正懂「大数据」这三个字是什么意思？（其实大数据这个说法本身就不准确，大量数据后的多维度关联才是关键）其实整个人群中真正理解概率统计，并且能在生活中正确使用的人就极少。而概率论则是大数据应用的基础的基础。</p>
-<p>经过一些简单的推理我们就可以知道，在大数据时代能够掌握利用海量数据方法的人不会超过万分之一。换句话说，在大数据面前，万分之九千九百九十九的人都是没用的，万分之一之后都是落后，都是被研究，被引导，被赚取的对象。</p>
-<p>也许以上事实会令你焦虑，但这种焦虑使用得当的话，就是有价值的。因为换个词来说，这个就是<strong>「危机感」</strong>。危机感催人进步，而没有危机感的人就是那种将来注定变成无用之人的行尸走肉。</p>
-<p>放心，通过努力你一定会有办法解决「危机感」所带来的焦虑。这个化解焦虑的过程就是你提高的过程。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本期文章的里笑来老师帮助大家理清了对当今时代「落后」的定义。对于现状，我们大部分人都太过乐观了。大数据时代的来临会对整个社会进行一次洗牌，能够掌握利用数据的人会成为时代的主导者。面对这样的情况，我们应该保持「危机感」。</p>
-<p><em>世界已经在变化，机会已经来临，逃避还是拥抱它只在于你的选择。</em></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;「落后」的定义&quot;&gt;&lt;a href=&quot;#「落后」的定义&quot; class=&quot;headerlink&quot; title=&quot;「落后」的定义&quot;&gt;&lt;/a&gt;「落后」的定义&lt;/h2&gt;&lt;p&gt;首先笑来老师提出一个问题『是不是平均水平以上就不是落后了？』以常识来回答，我们大部分人都会回答是啊，我已经超过了大部分人的平均水平，难道还算落后吗？&lt;/p&gt;
-&lt;p&gt;要回答这个问题，这里笑来老师提到了一个很有趣的现象叫「乌比冈湖效应」Lake Wobegon Effect.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
-    
-    
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linkedin中国总裁沈博阳演讲</title>
-    <link href="http://travelight.me/2016/10/24/presentation_shenboyang/"/>
-    <id>http://travelight.me/2016/10/24/presentation_shenboyang/</id>
-    <published>2016-10-25T04:42:47.000Z</published>
-    <updated>2016-10-26T04:53:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Who-is-沈博阳"><a href="#Who-is-沈博阳" class="headerlink" title="Who is 沈博阳"></a>Who is 沈博阳</h2><h4 id="赴美留学和工作"><a href="#赴美留学和工作" class="headerlink" title="赴美留学和工作"></a>赴美留学和工作</h4><p>1996年，沈博阳从南开大学毕业，来到全球互联网的发源地–美国加州大学洛杉矶分校（UCLA）留学，2000年获得了计算机硕士学位，并作为一名资深软件工程师加入了Vizional Technologies–领先的B2B供应链软件解决方案供应商。2003年，沈博阳加入了领先的消费金融服务网站LowerMyBills.com。2004年5月，沈博阳加入Yahoo任技术主管，负责Overture广告前端系统的开发，并参与设计和开发Yahoo全新的Panama广告系统。2005年6月，沈博阳作为工程师经理加盟Google，领导工程师团队负责Google内部管理系统的开发，包括合同流程管理平台。</p>
-<a id="more"></a>
-<h4 id="投身国内互联网"><a href="#投身国内互联网" class="headerlink" title="投身国内互联网"></a>投身国内互联网</h4><p>2006年，沈博阳作为Google中国落地团队成员，回到中国继续负责内部管理系统的开发并参与多项Google中国本地化产品的开发实施。2008年9月，沈博阳出任Google中国区战略合作负责人，主导并参与过Google与中国移动，中国联通，携程，高德，金山等众多知名电信企业和互联网公司的战略合作并负责Android平台在中国的战略拓展。</p>
-<h4 id="成功创办糯米网"><a href="#成功创办糯米网" class="headerlink" title="成功创办糯米网"></a>成功创办糯米网</h4><p>2010年1月，沈博阳以副总裁的身份加入人人公司，负责集团的战略合作以及人人网的开放平台。同年2月份，开始内部创业糯米网。作为创始人和CEO，从八个人、一间狭小的会议室开始，沈博阳成功地把糯米网做成了中国前三名的团购网站，在全国120个城市有直营分公司，拥有2500名员工，年成交额数十亿元人民币。2011年5月，人人公司在纽交所成功上市（NYSE:RENN），糯米网是人人公司上市主体中四大业务之一。2013年8月，百度以1.6亿美元现金战略投资糯米网，占股59%。2014年1月，百度宣布全资收购糯米网，成为其O2O战略中重要的一个组成部分。</p>
-<h4 id="迎接新挑战-加盟LinkedIn"><a href="#迎接新挑战-加盟LinkedIn" class="headerlink" title="迎接新挑战 加盟LinkedIn"></a>迎接新挑战 加盟LinkedIn</h4><p>2014年1月，沈博阳加盟全球最大的职业社交网站LinkedIn，任全球副总裁兼中国区总裁，希望将LinkedIn在全球范围内建立的强大的职业社交网络带到中国，为中国1亿5千万职场人士打造国际化平台，提供更多经验与洞察，助其实现职业理想。</p>
-<h2 id="跨国互联网公司如何在中国成功"><a href="#跨国互联网公司如何在中国成功" class="headerlink" title="跨国互联网公司如何在中国成功"></a>跨国互联网公司如何在中国成功</h2><p>绝大多事跨国互联网公司都非常重视中国市场，但大部分的本土化尝试都不太成功。沈总在这里以自己的经验给出了非常明确的三要素：人 + 架构 + 产品。</p>
-<p>在硅谷大部分互联网公司尤其是startup公司在发展的时候非常强调，growth hacking (黑客式增长)。这已经成为一种硅谷风气，很多的新兴公司通过agile development(敏捷开发)结合growh hacking去快速的验证新产品功能，吸引新用户以及留存老用户。</p>
-<blockquote>
-<p><strong><em>Growth Hacking简单介绍</em></strong><br>customer lifecycle「用户生命周期」可以分为以下这几个部分 <a href="http://www.slideshare.net/dmc500hats/startup-metrics-ignite-velocity" target="_blank" rel="external">参考链接</a></p>
-<ol>
-<li>Acquisition 「获取」</li>
-<li>Activation 「激活」</li>
-<li>Retention 「留存」</li>
-<li>Referral 「推荐」</li>
-<li>Revenue 「套现」</li>
-</ol>
-<p>下面这张图非常的形象。就像冰山，一个产品的增长其实是由多个部分支撑。增长是结果，而其他这些部分都是增长的原因。<br><img src="http://www.smartinsights.com/wp-content/uploads/2013/02/What-is-growth-hacking-600x419.png" alt=""></p>
-</blockquote>
-<p>那这种模式是否可以套用到中国市场上呢。答案是『Yes and No』。</p>
-<p><strong>Yes</strong><br>大部分的growth hacking的方法还是可以移植的，比如利用好的UX以及SEO来获取更多用户，通过各种活动来留存用户，将用户量积累到一定体量时再考虑套现等等。</p>
-<p><strong>No</strong><br>要根据不同国家文化使用的特点来定制growth的实现方法。比如Email marketing(邮件营销)这个在么过非常常见的营销手法，在国内则基本行不通。因为国人并不经常使用邮件，利用短信或者微信营销效果会好的多。</p>
-<p>那是不是对growth hacking里的方法做些本土化处理就可以了呢？答案是远远不够。在中国产品的多渠道推广非常重要。就像平面广告，活动冠名这些看似传统的宣传恰恰在中国很有效。</p>
-<h2 id="中国-vs-硅谷"><a href="#中国-vs-硅谷" class="headerlink" title="中国 vs 硅谷"></a>中国 vs 硅谷</h2><p>这里用中国和硅谷做比较而不是美国，原因是大部分的美国互联网创业都是来自硅谷。</p>
-<p><strong>相同之处</strong></p>
-<ul>
-<li>广阔的市场</li>
-<li>创业文化盛行</li>
-<li>海量的风险投资</li>
-<li>丰富技术人才储备</li>
-<li>完善的创业环境</li>
-</ul>
-<p><strong>不同之处</strong></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>中国</th>
-<th>硅谷</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>创新类型</td>
-<td>擅长模式创新<sup><sub>注1</sub></sup></td>
-<td>擅长技术创新</td>
-</tr>
-<tr>
-<td>市场大小</td>
-<td>市场巨大</td>
-<td>市场大</td>
-</tr>
-<tr>
-<td>商业节奏</td>
-<td>节奏很快</td>
-<td>节奏较快</td>
-</tr>
-<tr>
-<td>网络效应</td>
-<td>有一定的Networking</td>
-<td>Networking非常有效</td>
-</tr>
-<tr>
-<td>激进程度</td>
-<td>现实主意，有时不择手段 <sup><sub>注2</sub></sup></td>
-<td>注重长线发展</td>
-</tr>
-<tr>
-<td>人才</td>
-<td>海量人才</td>
-<td>人才良性流动</td>
-</tr>
-</tbody>
-</table>
-<p>注1：例子比如微信，自行车共享<br>注2：需要考虑底线画在哪里</p>
-<h2 id="创业误区"><a href="#创业误区" class="headerlink" title="创业误区"></a>创业误区</h2><p>创业者常有的误区包括：</p>
-<p><strong>1. 必须要当co-founder</strong></p>
-<p>对于第一点，对于初次创业的人来说进入一个创业团队在工作中学习一个初创企业是如何发展的对今后自己创业会很有帮助。</p>
-<p><strong>2. 没有想清楚为什么要创业</strong><br>首先要申请创业成功是小概率事件。所以面对创业这件事情，有一个好心态是必须的。参与创业没有失败者，在整个创业的过程中，一个人能体验打工时一辈子都无法或者的经历，感受不一样的人生。创业者的目标应该是实现自己最大价值，同时造福大家。</p>
-<h2 id="有潜力的创业方向"><a href="#有潜力的创业方向" class="headerlink" title="有潜力的创业方向"></a>有潜力的创业方向</h2><h4 id="消费升级-高端消费"><a href="#消费升级-高端消费" class="headerlink" title="消费升级/高端消费"></a>消费升级/高端消费</h4><p>随着整体国民收入增加，高端产品的市场逐渐打开。例子：华为的高端手机。</p>
-<h4 id="B2B"><a href="#B2B" class="headerlink" title="B2B"></a>B2B</h4><p>C2C, B2C的机会已经饱和。B2B却刚刚开始，并且相对于前两者，business user更愿意付费。</p>
-<h4 id="高科技"><a href="#高科技" class="headerlink" title="高科技"></a>高科技</h4><p>AR的潜力巨大，未来的应用领域会非常多；VR更多局限在娱乐领域；AI机会巨大，将颠覆几乎所有行业。<br>对于AI创业，有hardcore(核心技术)以及AI application(应用)两个方向可以走。</p>
-<h4 id="Copy-from-China"><a href="#Copy-from-China" class="headerlink" title="Copy from China"></a>Copy from China</h4><p>从前中国公司copy国外好的产品取得成功。如今，中国的很多模式创新领先世界，copy from China成为可能。例如：musical.ly仿造小咖秀。今日头条正在进行international hack。</p>
-<h2 id="创业路上的心得"><a href="#创业路上的心得" class="headerlink" title="创业路上的心得"></a>创业路上的心得</h2><ul>
-<li>心态：实现自己最大价值，造福大家，改变世界</li>
-<li>团队：一个人的力量有限，用心组建团队</li>
-<li>瓶颈：出现问题时CEO应该有决心自己去救火</li>
-<li>底线：大胜靠德</li>
-<li>大局观：站在未来看今天</li>
-<li>胸怀：宽容待人，理解下属</li>
-</ul>
-<h2 id="Q-amp-A环节-部分"><a href="#Q-amp-A环节-部分" class="headerlink" title="Q&amp;A环节(部分)"></a>Q&amp;A环节(部分)</h2><p><strong>1.Software Engineer职业发展应该如何规划？</strong></p>
-<p>答：从工程师起步是非常好的职业起点。根据自己的特长和兴趣，可以转任何职位，比如BD，Product。别给自己设限，保持开放心态，适应不同环境，尝试不同的机会。很多事只有做了才知道自己到底行不行。</p>
-<p><strong>2.硅谷工程师何时回国时机比较好？</strong></p>
-<p>答：工作3-5年后。利用在硅谷的时间，多去networking，参加各种创业活动，感受车库创业气氛。这些资源只有在硅谷才能获得，未来会为回国创业带来很大的帮助。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Who-is-沈博阳&quot;&gt;&lt;a href=&quot;#Who-is-沈博阳&quot; class=&quot;headerlink&quot; title=&quot;Who is 沈博阳&quot;&gt;&lt;/a&gt;Who is 沈博阳&lt;/h2&gt;&lt;h4 id=&quot;赴美留学和工作&quot;&gt;&lt;a href=&quot;#赴美留学和工作&quot; class=&quot;headerlink&quot; title=&quot;赴美留学和工作&quot;&gt;&lt;/a&gt;赴美留学和工作&lt;/h4&gt;&lt;p&gt;1996年，沈博阳从南开大学毕业，来到全球互联网的发源地–美国加州大学洛杉矶分校（UCLA）留学，2000年获得了计算机硕士学位，并作为一名资深软件工程师加入了Vizional Technologies–领先的B2B供应链软件解决方案供应商。2003年，沈博阳加入了领先的消费金融服务网站LowerMyBills.com。2004年5月，沈博阳加入Yahoo任技术主管，负责Overture广告前端系统的开发，并参与设计和开发Yahoo全新的Panama广告系统。2005年6月，沈博阳作为工程师经理加盟Google，领导工程师团队负责Google内部管理系统的开发，包括合同流程管理平台。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://travelight.me/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="讲座笔记" scheme="http://travelight.me/tags/%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通往财富自由之路（第六周） - 重新认识资本</title>
-    <link href="http://travelight.me/2016/10/08/road_to_financial_freedom_week_6/"/>
-    <id>http://travelight.me/2016/10/08/road_to_financial_freedom_week_6/</id>
-    <published>2016-10-09T04:42:47.000Z</published>
-    <updated>2016-10-20T17:13:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本期文章的开始，笑来老师提出金钱不等于资本。这句话看似有些矛盾，而之后的所有内容围绕这句话给出了诠释。 </p>
-<a id="more"></a>
-<h2 id="什么是真正的『资本』"><a href="#什么是真正的『资本』" class="headerlink" title="什么是真正的『资本』"></a>什么是真正的『资本』</h2><p>举个很简单的例子，房子确实是主要用砖头建造的，但仅仅一堆砖头摆在那里肯定算不上房子。同理，资本确实主要由钱构成，但仅仅是一对钱放在那里肯定算不上是资本。</p>
-<p>金钱能成为有效资本，至少和以下三个要素有关：</p>
-<ol>
-<li><p><strong>资金的金额大小</strong><br>资金的金额大小决定你可以投资的标的，但这肯定不是资金是否能被认为是资本的最主要因素。因为后两点都比这一点要重要的多。</p>
-</li>
-<li><p><strong>资金的使用时限</strong><br>资金的使用时限决定投资者可以花多长时间去等待收益或者获得更高的收益。使用时限过段的资金不能算作有效资本。举个例子，一个人可以拥有一天支配1000万的资金权利，那他根本就寻找不到投资的渠道。即使是赌博，他想找到一个有足够资金又愿意和在坐在一张赌台上的人也几乎不可能。这种情况下，1000万只是浮云，不是资本。</p>
-</li>
-<li><p><strong>资金背后的智慧</strong><br>而资金背后的智慧则更加关键。在大部分人在贪婪和恐惧中挣扎时，巴菲特却利用最基本的复利思想成为了世界富豪，所以他的100万和其他大部分人的100万根本就不是同一种东西。</p>
-</li>
-</ol>
-<h2 id="投资的哲学"><a href="#投资的哲学" class="headerlink" title="投资的哲学"></a>投资的哲学</h2><p>说到投资，很多人存在一个误区，总觉得投资是有钱人做的事，没有太多钱的人没有办法投资。这种思想的逻辑问题在于，他们把收益的评价体系弄错了。</p>
-<p>其实在投资界大家更看重的是『收益率』而不是『收益绝对值』。所以提到投资这件事的时候，我们应该着眼于盈亏比例而不是绝对值大小。</p>
-<p>说到收益率就不得不提到经典的复利理论</p>
-<blockquote>
-<p>最终收益率 = (1+r)^n - 1 r是单次收益率 n是次数</p>
-</blockquote>
-<p>复利的力量类似于滚雪球。即使每次投资的收益率只有10%，10次投资后的最终收益绿将达到160%。利用这个公式就可以很容易理解，投资的真谛在于每次都获得稳定可靠的收益，而不是一次获得暴利然后再亏掉。</p>
-<p>实际上巴菲特很早就建议年轻人从拿第一份工资开始就应该是学习如何投资。因为投资能力的积累是一个长期的过程。说到这里，我想感谢母亲。她在我大学的时候就给了我一小笔资金进行投资。那时候买了一些股票，赚了一些钱，更重要的是习得了一个面对金钱得失比较淡然的心态。这对我之后做出很多中长期决策时有了很大的帮助。</p>
-<h2 id="如何获得资本"><a href="#如何获得资本" class="headerlink" title="如何获得资本"></a>如何获得资本</h2><p>获得资本最简单可行的方法就是想办法创造无时限的资金。</p>
-<p>权威的调查数据表明，其实2/3的人损失10%收入也不会影响生活质量，甚至还有1/3的人即使损失20%工资也不会有太大的变化。</p>
-<p>通过积累这10%的收入，每个人都是很快获得这初始的资本。</p>
-<h2 id="如何学会投资"><a href="#如何学会投资" class="headerlink" title="如何学会投资"></a>如何学会投资</h2><p>从书本、网络学习，在实战中积累经验。当今世界，网络资源非常发达。耐心花些时间去学习你想要投资领域的基础知识。然后利用你之前积累的资金边投资边积累经验，总结经验教训。掌握投资的智慧没有其他捷径。</p>
-<h2 id="如何进行投资"><a href="#如何进行投资" class="headerlink" title="如何进行投资"></a>如何进行投资</h2><p>有人问巴菲特，如何投资才能赚钱。他的回答是，先学会如何不亏钱。这句话看似是敷衍，其实蕴含了一条投资真谛『不冒无谓的风险』。有时候越朴实的话也越真实。</p>
-<p>很多人嘴中得得投资，其实本质上和赌博并没有差异。美国政府做过调查，大部分的普通投资者并没有自己的投资观念。如果问他们为什么选择了某些股票，很多人的答案多半是：听朋友介绍的，看专家推荐的，内部消息，等等。</p>
-<p>从这个角度衍生出的其他情况，比如『借钱投资』就是最大的负面例子。这种情况下胜算非常渺茫。参考前文提出『资本三要素』原因如下：<br><em>1. 资本金额是负数</em><br><em>2. 钱不是自己的，因而不可能有无限的时间</em><br><em>3. 做出这么高风险选择的人没啥智慧</em></p>
-<h2 id="如何养成投资心态"><a href="#如何养成投资心态" class="headerlink" title="如何养成投资心态"></a>如何养成投资心态</h2><p>能够给自己的资金『判个无期徒刑』的人，实际上是已经拥有了足够的智慧，因为这会给他们足够的时间机会养成『长期深入思考未来』的能力。</p>
-<p>那是不是这笔无期限的资金就一定要在投资账户里躺倒地老天荒呢？答案是否定的。</p>
-<p>在这里要区别的一个概念。『很想要却不能够』 和 『可以却不一定要』 之间有巨大的区别。一个简单的例子，拿到大学录取通知却选择不去或退学，与根本就考不上大学是有天壤之别的。因为这其实是两种完全不同的思维维度下做出的不同决定。</p>
-<p>延伸到其他领域，比如那时候我在考虑是否出国留学的时候我就一直在思考我的动机。一直到想清楚了，我才下定决心全力以赴。因为<strong>动机决定结果</strong>。知道自己想要什么，一个人才能获得前进的源动力，才不会在遇到困难时迷茫。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这周的文章里，笑来老师从根本上澄清了『资本』的真正定义。并且，他从如何获得资本，如何学会投资，如何进行投资上给出了一套方法论。其中的很多思想和我小时候看过的『巴菲特传』一致，这说明很多很简单朴素的思想，其实才是最真实最可能经得起时间考验的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本期文章的开始，笑来老师提出金钱不等于资本。这句话看似有些矛盾，而之后的所有内容围绕这句话给出了诠释。 &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
-    
-    
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通往财富自由之路（第五周） - 遇到贵人的方法</title>
-    <link href="http://travelight.me/2016/10/07/road_to_financial_freedom_week_5/"/>
-    <id>http://travelight.me/2016/10/07/road_to_financial_freedom_week_5/</id>
-    <published>2016-10-08T04:42:47.000Z</published>
-    <updated>2016-10-18T18:12:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人却处处能得到贵人相助。产生这个思想的原因，往往是当事人把因果关系弄反了。笑来老师的这期文章给出了非常逻辑性的答案。</p>
-<a id="more"></a>
-<h2 id="智商高，情商低？"><a href="#智商高，情商低？" class="headerlink" title="智商高，情商低？"></a>智商高，情商低？</h2><p>首先，我们要理解一个问题，考试高的人并不等于智商高。当然很多学霸确实在各种天份上都高人一筹，但也有很多人只是考试机器。对这类人来说他们只是『考』商高，非智商高。</p>
-<p>其实智商和情商本质上是统一的，情商和智商本身都是和大脑相关的评价标准，一个智商高的人往往懂得如何投资未来积累资源。而这些也就形成了高情商。</p>
-<h2 id="如何遇见贵人"><a href="#如何遇见贵人" class="headerlink" title="如何遇见贵人"></a>如何遇见贵人</h2><p>笑来老师的母亲从小就教育他，一个人只有自己首先得是个贵人才能遇到贵人。</p>
-<p>你不优秀，就没有有效的社交。这是个非常朴素、简单，却永恒有效的道理。『遇到贵人』这件事从来不应该是我们的目的，相反『成为贵人』才是我们应该努力的方向。当你已经可以成为自己的贵人时，你就可以帮助别人，也会得到其他贵人的帮助。</p>
-<ol>
-<li>乐观的人更容易遇到贵人</li>
-<li>贵人更容易遇到贵人</li>
-<li>所谓贵人就是能帮助他人进步的人</li>
-<li>优秀的人，值得尊重的人更容易获得帮助</li>
-<li>乐于分享的人更容易获得帮助</li>
-<li>不耻于求助的人更容易获得帮助</li>
-<li>求助的时候不宜仅用金钱作为回报，反之亦然</li>
-<li>贵人未必是牛人，牛人也未必能成为贵人。贵人更懂得『独贵贵不如众贵贵』</li>
-<li>人们的成功，源自于大量的希望看到他成功的人。反过来，若是有大量的人不愿意看到某人成功，那么此人很难或者『贵人相助』</li>
-<li>做正确的事情更容易获得贵人相助。</li>
-<li>活在未来的人更容易遇到贵人，因为别人能在其身上看到希望。</li>
-</ol>
-<h2 id="如何保持积极心态"><a href="#如何保持积极心态" class="headerlink" title="如何保持积极心态"></a>如何保持积极心态</h2><p>始终保持积极的心态是一个人成长的催化剂。人生充满酸甜苦辣，悲欢离合。客观事物是不能改变的，但改变看待事物的角度有时候会带给我们截然不同的结果。</p>
-<p>对于失败，我们可以认为那是『暂时的不成功』。而讨厌则是『还没喜欢上』罢了。转换了思考角度后，我们永远都有继续努力下去的理由。用罗胖的经典语录总结『想要成功无它，憋住一口真气不散』。</p>
-<p>当我们需要他人帮助时，我们就应该勇敢的说出来。寻求帮助不等于乞讨，添麻烦，占便宜。一个人寻求帮助实际上是整合资源，帮助你的人是在用自己的资源投资在你身上，因为他相信你的未来会更好。我们要相信贵人的眼光。现在还不上的人情，未来一定有机会能报答。</p>
-<p>这种思想和是明朝政治家、哲学家王守仁阐述的『知行合一』不谋而合。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这期的内容都是干货，其实很多的核心思想我已经作为自己未来发展的纲领。首先，情商是智商在社交和自我投资方面的具体体现。其次，一个人想要常常获得贵人相助，最便捷的途径就是让自己成为一个贵人。最后，学会转换看待事物的角度这个小技巧，会让我们更容易做到知行合一。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;读到笑来老师的这期文档，我产生了极大的共鸣。经常有人会抱怨自己没有机会，而有的人却处处能得到贵人相助。产生这个思想的原因，往往是当事人把因果关系弄反了。笑来老师的这期文章给出了非常逻辑性的答案。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
-    
-    
-      <category term="得到订阅" scheme="http://travelight.me/tags/%E5%BE%97%E5%88%B0%E8%AE%A2%E9%98%85/"/>
-    
-      <category term="通往财富自由之路" scheme="http://travelight.me/tags/%E9%80%9A%E5%BE%80%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/"/>
-    
-      <category term="读书笔记" scheme="http://travelight.me/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Traveling Light 博客正式开通</title>
-    <link href="http://travelight.me/2016/10/06/blog_opening/"/>
-    <id>http://travelight.me/2016/10/06/blog_opening/</id>
-    <published>2016-10-07T04:42:47.000Z</published>
-    <updated>2016-10-18T06:32:51.000Z</updated>
+    <link href="http://localhost:4000/2016/10/07/blog_opening/"/>
+    <id>http://localhost:4000/2016/10/07/blog_opening/</id>
+    <published>2016-10-08T04:42:47.000Z</published>
+    <updated>2016-10-16T22:34:50.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直都想搭建一个属于自己博客，一直到这次换工作期间才真正实行。非常感谢一位素未平生的博主『小土刀』，他的博客给了我很大的动力，在此也强力推荐一下 <a href="http://wdxtub.com" target="_blank" rel="external">link</a>。在选择用什么技术来搭建博客的时候考虑了很多种的方案，归类总结起来有以下三种：</p>
-<ol>
-<li>使用第三方的博客网站 </li>
-<li>自己搭建静态网站</li>
-<li>自己搭建动态网站</li>
-</ol>
-<a id="more"></a>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直都想搭建一个属于自己博客，在选择用什么来搭建博客的时候考虑了很多的方案，总结起来有以下三种。</p>
+<p>1.使用第三方的博客网站<br>2.自己搭建静态网站<br>3.自己搭建动态网站</p>
 <h3 id="1-使用第三方博客"><a href="#1-使用第三方博客" class="headerlink" title="1. 使用第三方博客"></a>1. 使用第三方博客</h3><p>在朋友的推荐下，尝试了<code>SegmentFault</code> <code>OSChina</code> <code>简书</code>，总体来说都大同小异。功能上大部分博客都支持markdown语法，代码高亮，文档目录索引等功能。不过因为是第三方平台，免不了有一些文章推荐，广告信息等等。总觉得不够清爽，于是下定决心放弃使用第三方博客。</p>
 <h3 id="2-自己搭建静态博客"><a href="#2-自己搭建静态博客" class="headerlink" title="2. 自己搭建静态博客"></a>2. 自己搭建静态博客</h3><p>说到静态博客就不得不提到大名鼎鼎的Jelly，网上文档很多，搭建起来并没有什么难度。最后出来的默认效果更像是一个online resume，并不太符合我的需求。之后看到了Hexo这个比较新的framework。Hexo是由一位台湾程序员开发的，所以整体的设计很符合亚洲人的口味。简洁大方的同时，可定制化程度也很高。</p>
 <p>于是，我继续Hexo和Github Pages搭建了一个博客，使用了很流行的NEXT主题。定制化主题其实主要就是修改Hexo默认的几个页面模板，里面使用了wisg语言，当然你也可以使用其他几种常见模板语言。</p>
-<h3 id="3-自己搭建动态网站"><a href="#3-自己搭建动态网站" class="headerlink" title="3. 自己搭建动态网站"></a>3. 自己搭建动态网站</h3><p>搭建完静态网站后，我产生一个疑问，到底静态博客和动态的在使用上有什么区别。为了解开这个疑惑，我就想寻找一个可以很快上手的动态博客框架，然后发现了基于Python Django的Project Zinnia。这几年我一直开发都是用的Python，所以上手起来比较快。很快搭建好以后我把它和之前搭建的静态博客进行了对比。</p>
+<h3 id="3-自己搭建动态网站"><a href="#3-自己搭建动态网站" class="headerlink" title="3. 自己搭建动态网站"></a>3. 自己搭建动态网站</h3><p>搭建完静态网站后，为了对比一下和常见的动态Blog有什么区别。我就想寻找一个可以很快上手的架构，然后发现了基于Python Django的Project Zinnia。这几年我一直开发都是用的Python，所以使用起来技术门槛比较低，很快搭建好以后我把它和之前搭建的静态博客进行了对比。</p>
 <p><strong>区别如下：</strong></p>
 <ol>
 <li>静态博客无数据库，所有数据用md文本格式保存，本身有可读性。动态博客有数据库，数据可以用你选择的形式存入DB，所有的操作基于基于数据库进行。</li>
 <li>静态博客只需要一个托管平台就可使用，不需要架设，配置简单。动态博客需要基于一台服务器。</li>
 <li>静态博客非常的light，即插即用。动态博客其实后台用service形式实现就是包含前后端的网站。</li>
-<li>编辑内容时，静态博客可以使用任何你喜欢的editor，比如sublime，我选择的是一款Mac下的付费软件叫MWeb。而动态博客由内容输入页面的文本框类型决定，可以选择富文本，markdown或者任何其他格式。</li>
 </ol>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直都想搭建一个属于自己博客，一直到这次换工作期间才真正实行。非常感谢一位素未平生的博主『小土刀』，他的博客给了我很大的动力，在此也强力推荐一下 &lt;a href=&quot;http://wdxtub.com&quot;&gt;link&lt;/a&gt;。在选择用什么技术来搭建博客的时候考虑了很多种的方案，归类总结起来有以下三种：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;使用第三方的博客网站 &lt;/li&gt;
-&lt;li&gt;自己搭建静态网站&lt;/li&gt;
-&lt;li&gt;自己搭建动态网站&lt;/li&gt;
-&lt;/ol&gt;
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一直都想搭建一个属于自己博客，在选择用什么来搭建博客的时候考虑了很多的方案，总结起来有以下三种。&lt;/p&gt;
+&lt;p&gt;1.使用第三方的博客网站&lt;b
     
     </summary>
     
-      <category term="essay" scheme="http://travelight.me/categories/essay/"/>
+      <category term="essay" scheme="http://localhost:4000/categories/essay/"/>
     
     
-      <category term="blog" scheme="http://travelight.me/tags/blog/"/>
+      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>Hexo基本命令</title>
-    <link href="http://travelight.me/2016/10/02/hello-world/"/>
-    <id>http://travelight.me/2016/10/02/hello-world/</id>
-    <published>2016-10-03T04:42:47.000Z</published>
-    <updated>2016-10-20T06:05:42.000Z</updated>
+    <link href="http://localhost:4000/2016/09/24/hello-world/"/>
+    <id>http://localhost:4000/2016/09/24/hello-world/</id>
+    <published>2016-09-24T23:17:59.000Z</published>
+    <updated>2016-10-15T00:12:38.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
@@ -539,15 +105,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     
-      <category term="tech" scheme="http://travelight.me/categories/tech/"/>
-    
-    
-      <category term="hexo" scheme="http://travelight.me/tags/hexo/"/>
     
   </entry>
   
