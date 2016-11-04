@@ -474,6 +474,36 @@
   </entry>
   
   <entry>
+    <title>Traveling Light 博客配置教程</title>
+    <link href="http://localhost:4000/2016/10/06/2016-11-03/"/>
+    <id>http://localhost:4000/2016/10/06/2016-11-03/</id>
+    <published>2016-10-07T04:42:47.000Z</published>
+    <updated>2016-11-04T06:55:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>「我是华丽的占位符」</p>
+<p>参考资料：</p>
+<p><a href="https://segmentfault.com/a/1190000004548638" target="_blank" rel="external">https://segmentfault.com/a/1190000004548638</a></p>
+<p><a href="http://www.jeyzhang.com/hexo-next-add-post-views.html" target="_blank" rel="external">http://www.jeyzhang.com/hexo-next-add-post-views.html</a></p>
+<p><a href="http://www.jeyzhang.com/hexo-next-add-post-views.html" target="_blank" rel="external">http://www.jeyzhang.com/hexo-next-add-post-views.html</a></p>
+<p><a href="http://www.jeyzhang.com/blog-on-gitcafe-with-dns-settings.html" target="_blank" rel="external">http://www.jeyzhang.com/blog-on-gitcafe-with-dns-settings.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「我是华丽的占位符」&lt;/p&gt;
+&lt;p&gt;参考资料：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000004548638&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://segmentfault.
+    
+    </summary>
+    
+      <category term="tech" scheme="http://localhost:4000/categories/tech/"/>
+    
+    
+      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Traveling Light 博客正式开通</title>
     <link href="http://localhost:4000/2016/10/06/blog_opening/"/>
     <id>http://localhost:4000/2016/10/06/blog_opening/</id>
@@ -509,32 +539,6 @@
 &lt;li&gt;自己搭建静态网站&lt;/li&gt;
 &lt;li&gt;自己搭建动态网站&lt;/li&gt;
 &lt;/ol&gt;
-    
-    </summary>
-    
-      <category term="tech" scheme="http://localhost:4000/categories/tech/"/>
-    
-    
-      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Traveling Light 博客配置教程</title>
-    <link href="http://localhost:4000/2016/10/06/2016-11-03/"/>
-    <id>http://localhost:4000/2016/10/06/2016-11-03/</id>
-    <published>2016-10-07T04:42:47.000Z</published>
-    <updated>2016-11-04T01:05:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>参考资料：</p>
-<p><a href="https://segmentfault.com/a/1190000004548638" target="_blank" rel="external">https://segmentfault.com/a/1190000004548638</a></p>
-<p><a href="http://www.jeyzhang.com/hexo-next-add-post-views.html" target="_blank" rel="external">http://www.jeyzhang.com/hexo-next-add-post-views.html</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;参考资料：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000004548638&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://segmentfault.com/a/119000000454
     
     </summary>
     

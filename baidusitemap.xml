@@ -4,11 +4,11 @@
 
     
   <url>
-    <loc>http://localhost:4000/2016/10/06/blog_opening/</loc>
-    <lastmod>2016-11-04T05:53:33.000Z</lastmod>
+    <loc>http://localhost:4000/2016/10/06/2016-11-03/</loc>
+    <lastmod>2016-11-04T06:55:11.000Z</lastmod>
     <data>
         <display>
-        <title>Traveling Light 博客正式开通</title>
+        <title>Traveling Light 博客配置教程</title>
         <pubTime>2016-10-07T04:42:47.000Z</pubTime>
         
         <tag>blog</tag>
@@ -24,11 +24,11 @@
 
     
   <url>
-    <loc>http://localhost:4000/2016/10/06/2016-11-03/</loc>
-    <lastmod>2016-11-04T01:05:17.000Z</lastmod>
+    <loc>http://localhost:4000/2016/10/06/blog_opening/</loc>
+    <lastmod>2016-11-04T05:53:33.000Z</lastmod>
     <data>
         <display>
-        <title>Traveling Light 博客配置教程</title>
+        <title>Traveling Light 博客正式开通</title>
         <pubTime>2016-10-07T04:42:47.000Z</pubTime>
         
         <tag>blog</tag>
@@ -156,6 +156,30 @@
 
     
   <url>
+    <loc>http://localhost:4000/2016/10/08/road_to_financial_freedom_week_6/</loc>
+    <lastmod>2016-11-03T07:51:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>通往财富自由之路（第六周） - 重新认识资本</title>
+        <pubTime>2016-10-09T04:42:47.000Z</pubTime>
+        
+        <tag>得到订阅</tag>
+         
+        <tag>通往财富自由之路</tag>
+         
+        <tag>读书笔记</tag>
+         
+         
+           
+             
+              <breadCrumb title="essay" url="http://localhost:4000/categories/essay/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://localhost:4000/2016/10/26/road_to_financial_freedom_week_8/</loc>
     <lastmod>2016-11-03T07:51:29.000Z</lastmod>
     <data>
@@ -186,30 +210,6 @@
         <display>
         <title>通往财富自由之路（第七周） - 什么是落后？</title>
         <pubTime>2016-10-26T04:42:47.000Z</pubTime>
-        
-        <tag>得到订阅</tag>
-         
-        <tag>通往财富自由之路</tag>
-         
-        <tag>读书笔记</tag>
-         
-         
-           
-             
-              <breadCrumb title="essay" url="http://localhost:4000/categories/essay/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://localhost:4000/2016/10/08/road_to_financial_freedom_week_6/</loc>
-    <lastmod>2016-11-03T07:51:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>通往财富自由之路（第六周） - 重新认识资本</title>
-        <pubTime>2016-10-09T04:42:47.000Z</pubTime>
         
         <tag>得到订阅</tag>
          
