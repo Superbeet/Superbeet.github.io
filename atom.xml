@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2016-11-25T22:08:23.000Z</updated>
+  <updated>2017-07-09T07:11:56.000Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>通往财富自由之路（第十一周） -- 解决问题的万能钥匙</title>
+    <title>Udacity - Introduction to AI - Unit 1</title>
+    <link href="http://localhost:4000/2017/07/06/learning/udacity-introduction-to-AI-unit-1/"/>
+    <id>http://localhost:4000/2017/07/06/learning/udacity-introduction-to-AI-unit-1/</id>
+    <published>2017-07-07T04:42:47.000Z</published>
+    <updated>2017-07-09T07:11:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天学习了Introduction to AI第一单元</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天学习了Introduction to AI第一单元&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="learning" scheme="http://localhost:4000/categories/learning/"/>
+    
+    
+      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通往财富自由之路（第十一周） - 解决问题的万能钥匙</title>
     <link href="http://localhost:4000/2016/10/30/road_to_financial_freedom_week_11/"/>
     <id>http://localhost:4000/2016/10/30/road_to_financial_freedom_week_11/</id>
     <published>2016-10-31T04:42:47.000Z</published>
-    <updated>2016-11-25T22:08:23.000Z</updated>
+    <updated>2017-02-21T08:06:57.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>当我们遇到不同的困难的时候，有没有一个通用的方法可以解决呢？笑来老师在这一期的文章中给出了答案。</p>
 <a id="more"></a>
