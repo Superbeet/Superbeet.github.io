@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://localhost:4000/"/>
-  <updated>2017-07-09T07:16:54.000Z</updated>
+  <updated>2017-07-10T07:47:57.000Z</updated>
   <id>http://localhost:4000/</id>
   
   <author>
@@ -16,39 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My New Post</title>
-    <link href="http://localhost:4000/2017/07/09/My-New-Post/"/>
-    <id>http://localhost:4000/2017/07/09/My-New-Post/</id>
-    <published>2017-07-09T07:16:54.000Z</published>
-    <updated>2017-07-09T07:16:54.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Udacity - Introduction to AI</title>
-    <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/"/>
-    <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/</id>
+    <title>Introduction to AI - Lesson 2 - Problem Solving</title>
+    <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-2/"/>
+    <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-2/</id>
     <published>2017-07-07T04:42:47.000Z</published>
-    <updated>2017-07-10T00:56:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 <a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external"><strong>﻿Introduction to Artificial Intelligence</strong></a>﻿ 又重新在Udacity上向全世界开放注册了！勇敢的少年啊，让我们一起来了解现代AI背后的原理吧！</p>
-<p>###关于老师<br>Sebastian Thrun是著名的机器人科学家，斯坦福大学教授，Google X实验室创始人，他负责了Google无人驾驶车和Google Glass项目。Peter Norvig是著名的计算机科学家，Google研究主管，负责Google内部前沿科技的研发。</p>
-<p>###课程内容<br>这门课会介绍现代人工智能背后的基础知识，涵盖状态空间搜索，概率推理，机器学习，无监督学习，逻辑推理，规划，强化学习，马尔可夫模型，滤波，对抗搜索，博弈等相关内容。这几乎涵盖了现代人工智能的各个方向。所有现代智能系统，包括机器人，推荐系统，识别系统等都可以从这门课中找到理论基础。</p>
-<p>需要具备的知识基础<br>虽然涵盖了这么多内容，但是这门课完全不需要编程。上面的全部内容都被老师融入了一个一个简单的小例子中。简单的计算就可以得出课中所有问题的答案，甚至连微积分都不需要！高中数学基本就够了。当然，贝叶斯原理是需要的，这个实在无法避免啊……</p>
-<h3 id="学习这门课的动机"><a href="#学习这门课的动机" class="headerlink" title="学习这门课的动机"></a>学习这门课的动机</h3><p>因为我正在申请斯坦福大学的AI研究生课程，希望可以系统的学习高质量的AI知识，为之后的职业生涯做准备。</p>
-<p>斯坦福开学是9月份，现在正是暑假。我希望利用这几个月的时间，对AI的各个方向都有个初步的了解。虽然之前读书都时候数据挖掘，随机过程都学习过，但肯定还有很多方面我需要补充。Udacity这门课程可以说完美的覆盖了我的需求。</p>
-<p>###课程地址及相关链接<br>Udacity地址：<a href="http://www.udacity.com/" target="_blank" rel="external">http://www.udacity.com/</a><br>课程地址：<a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external">http://www.udacity.com/overview/Course/cs271/CourseRev/1</a><br>很不幸，由于视频在youtube上，在线观看需要翻墙。翻墙教程见本组置顶贴。<br>也可以下载下来看，地址是：<a href="http://www.udacity.com/wiki/CS271_downloads?course=cs271" target="_blank" rel="external">http://www.udacity.com/wiki/CS271_downloads?course=cs271</a> 。 感谢@isnowfy 的提醒。<br>不过，想要得到Certificate的话，还是需要在线提交Problem Sets和Exams的。<br>更新：从论坛了解到的情况来看，Certificate只有一种：certificate of Completion。将发给在期中和期末答对题目80%以上的同学。Problem Sets不计入成绩。</p>
-<p><strong>这里有教材（中文版）：</strong><br><a href="http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom</a><br><a href="http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom</a></p>
-]]></content>
+    <updated>2017-07-10T07:47:57.000Z</updated>
     
     <summary type="html">
-    
-      &lt;p&gt;MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 &lt;a href=&quot;http://www.udacity.com/overview/Course/cs271/CourseRev/1&quot; target=&quot;_blank&quot; rel=&quot;exter
     
     </summary>
     
@@ -60,21 +34,26 @@
   </entry>
   
   <entry>
-    <title>Introduction to AI - Unit 1 - Welcome to AI</title>
+    <title>Introduction to AI - Lesson 1 - Welcome to AI</title>
     <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-1/"/>
     <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-1/</id>
     <published>2017-07-07T04:42:47.000Z</published>
-    <updated>2017-07-10T01:53:00.000Z</updated>
+    <updated>2017-07-10T07:48:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。</p>
-<h4 id="AI的定义"><a href="#AI的定义" class="headerlink" title="AI的定义"></a>AI的定义</h4><p>对于人工智能的定义，网上有各种答案。Sebastian给出的解释非常的简单并且精确，AI就是Intelligent Agent（智能代理人、智能主体）。</p>
-<p>人工智能基础结构包括，Agent, Sensors and Actuators<br><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-0.png" alt=""></p>
+<div id="flowchart-0" class="flow-chart"></div>
+
 <h4 id="Key-Applications-of-AI"><a href="#Key-Applications-of-AI" class="headerlink" title="Key Applications of AI"></a>Key Applications of AI</h4><p>常见的人工智能应用包括以下几种：</p>
-<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-1.png" alt=""></p>
-<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-2.png" alt=""></p>
-<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-3.png" alt=""></p>
-<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-4.png" alt=""></p>
-<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-5.png" alt=""></p>
+<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><div id="sequence-0"></div>
+
+<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><div id="sequence-1"></div>
+
+<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><div id="sequence-2"></div>
+
+<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><div id="sequence-3"></div>
+
+<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><div id="sequence-4"></div>
+
 <h4 id="Four-key-attributes-of-an-AI-system"><a href="#Four-key-attributes-of-an-AI-system" class="headerlink" title="Four key attributes of an AI system"></a>Four key attributes of an AI system</h4><table>
 <thead>
 <tr>
@@ -108,12 +87,72 @@
 </table>
 <h4 id="AI-and-Uncertainty"><a href="#AI-and-Uncertainty" class="headerlink" title="AI and Uncertainty"></a>AI and Uncertainty</h4><p>AI is the technique of uncertainty management in computer software 由于以下这些原因，AI是个不确定性的游戏。</p>
 <h4 id="Sensor-Limits"><a href="#Sensor-Limits" class="headerlink" title="Sensor Limits"></a>Sensor Limits</h4><p>Adversaries<br>Stochastic Environments<br>Laziness<br>Ignorance</p>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">```
+
+#### AI的定义
+对于人工智能的定义，网上有各种答案。Sebastian给出的解释非常的简单并且精确，AI就是Intelligent Agent（智能代理人、智能主体）。
+
+人工智能基础结构包括，Agent, Sensors and Actuators
+
+```sequence
+participant Agent as A
+participant Environment as B
+A->B: Sensors
+B->A: Actuators</textarea><textarea id="flowchart-0-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script><script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.27/webfontloader.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script><textarea id="sequence-0-code" style="display: none">participant TRADING AGENT as A
+participant MARKETS as B
+B->A: Rates, News
+A->B: Buy/Sell</textarea><textarea id="sequence-0-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script><textarea id="sequence-1-code" style="display: none">participant ROBOT as A
+participant ENV as B
+B->A: cameras, microphone
+A->B: motors, voice</textarea><textarea id="sequence-1-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-1-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-1-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-1", options);</script><textarea id="sequence-2-code" style="display: none">participant GAME AGENT as A
+participant YOU as B
+B->A: your moves
+A->B: his moves</textarea><textarea id="sequence-2-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-2-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-2-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-2", options);</script><textarea id="sequence-3-code" style="display: none">participant DIAGNOSTIC AGENT as A
+participant DOCTOR as B
+B->A: vital, signals
+A->B: diagnostics</textarea><textarea id="sequence-3-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-3-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-3-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-3", options);</script><textarea id="sequence-4-code" style="display: none">participant CRAWLER (crawling agent) as A
+participant WWW as B
+participant YOU as C
+B->A: Web Paces
+A->C: Response your query</textarea><textarea id="sequence-4-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-4-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-4-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-4", options);</script></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。&lt;/p&gt;
-&lt;h4 id=&quot;AI的定义&quot;&gt;&lt;a href=&quot;#AI的定义&quot; class=&quot;headerlink&quot; title=&quot;AI的定义&quot;&gt;&lt;/a&gt;AI的定义&lt;/h4&gt;&lt;p
+&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;Key-Applications-of-AI&quot;&gt;
+    
+    </summary>
+    
+      <category term="learning" scheme="http://localhost:4000/categories/learning/"/>
+    
+    
+      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Udacity - Introduction to AI</title>
+    <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/"/>
+    <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/</id>
+    <published>2017-07-07T04:42:47.000Z</published>
+    <updated>2017-07-10T00:56:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 <a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external"><strong>﻿Introduction to Artificial Intelligence</strong></a>﻿ 又重新在Udacity上向全世界开放注册了！勇敢的少年啊，让我们一起来了解现代AI背后的原理吧！</p>
+<p>###关于老师<br>Sebastian Thrun是著名的机器人科学家，斯坦福大学教授，Google X实验室创始人，他负责了Google无人驾驶车和Google Glass项目。Peter Norvig是著名的计算机科学家，Google研究主管，负责Google内部前沿科技的研发。</p>
+<p>###课程内容<br>这门课会介绍现代人工智能背后的基础知识，涵盖状态空间搜索，概率推理，机器学习，无监督学习，逻辑推理，规划，强化学习，马尔可夫模型，滤波，对抗搜索，博弈等相关内容。这几乎涵盖了现代人工智能的各个方向。所有现代智能系统，包括机器人，推荐系统，识别系统等都可以从这门课中找到理论基础。</p>
+<p>需要具备的知识基础<br>虽然涵盖了这么多内容，但是这门课完全不需要编程。上面的全部内容都被老师融入了一个一个简单的小例子中。简单的计算就可以得出课中所有问题的答案，甚至连微积分都不需要！高中数学基本就够了。当然，贝叶斯原理是需要的，这个实在无法避免啊……</p>
+<h3 id="学习这门课的动机"><a href="#学习这门课的动机" class="headerlink" title="学习这门课的动机"></a>学习这门课的动机</h3><p>因为我正在申请斯坦福大学的AI研究生课程，希望可以系统的学习高质量的AI知识，为之后的职业生涯做准备。</p>
+<p>斯坦福开学是9月份，现在正是暑假。我希望利用这几个月的时间，对AI的各个方向都有个初步的了解。虽然之前读书都时候数据挖掘，随机过程都学习过，但肯定还有很多方面我需要补充。Udacity这门课程可以说完美的覆盖了我的需求。</p>
+<p>###课程地址及相关链接<br>Udacity地址：<a href="http://www.udacity.com/" target="_blank" rel="external">http://www.udacity.com/</a><br>课程地址：<a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external">http://www.udacity.com/overview/Course/cs271/CourseRev/1</a><br>很不幸，由于视频在youtube上，在线观看需要翻墙。翻墙教程见本组置顶贴。<br>也可以下载下来看，地址是：<a href="http://www.udacity.com/wiki/CS271_downloads?course=cs271" target="_blank" rel="external">http://www.udacity.com/wiki/CS271_downloads?course=cs271</a> 。 感谢@isnowfy 的提醒。<br>不过，想要得到Certificate的话，还是需要在线提交Problem Sets和Exams的。<br>更新：从论坛了解到的情况来看，Certificate只有一种：certificate of Completion。将发给在期中和期末答对题目80%以上的同学。Problem Sets不计入成绩。</p>
+<p><strong>这里有教材（中文版）：</strong><br><a href="http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom</a><br><a href="http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 &lt;a href=&quot;http://www.udacity.com/overview/Course/cs271/CourseRev/1&quot; target=&quot;_blank&quot; rel=&quot;exter
     
     </summary>
     
@@ -704,7 +743,7 @@
     <link href="http://localhost:4000/2016/10/02/hello-world/"/>
     <id>http://localhost:4000/2016/10/02/hello-world/</id>
     <published>2016-10-03T04:42:47.000Z</published>
-    <updated>2016-11-03T07:51:29.000Z</updated>
+    <updated>2017-07-10T07:45:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
@@ -716,6 +755,7 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h3 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h3><p><a href="https://huos3203.github.io/2017/06/24/hexo/Hexo%E5%8A%9F%E8%83%BD%E6%8F%92%E4%BB%B6/" target="_blank" rel="external">https://huos3203.github.io/2017/06/24/hexo/Hexo%E5%8A%9F%E8%83%BD%E6%8F%92%E4%BB%B6/</a></p>
 ]]></content>
     
     <summary type="html">
