@@ -415,179 +415,6 @@
             
               
                 
-                <a class="post-title-link" href="/2017/07/06/udacity-introduction-to-AI-unit-1/" itemprop="url">
-                  Introduction to AI - Unit 1 - Welcome to AI
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-07-06T21:42:47-07:00" content="2017-07-06">
-              2017-07-06
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/learning/" itemprop="url" rel="index">
-                    <span itemprop="name">learning</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/07/06/udacity-introduction-to-AI-unit-1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/06/udacity-introduction-to-AI-unit-1/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2017/07/06/udacity-introduction-to-AI-unit-1/" class="leancloud_visitors" data-flag-title="Introduction to AI - Unit 1 - Welcome to AI">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。</p>
-<h4 id="AI的定义"><a href="#AI的定义" class="headerlink" title="AI的定义"></a>AI的定义</h4><p>对于人工智能的定义，网上有各种答案。Sebastian给出的解释非常的简单并且精确，AI就是Intelligent Agent（智能代理人、智能主体）。</p>
-<p>人工智能基础结构包括，Agent, Sensors and Actuators</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant Agent as A</div><div class="line">participant Environment as B</div><div class="line">A-&gt;B: Sensors</div><div class="line">B-&gt;A: Actuators</div></pre></td></tr></table></figure>
-<h4 id="Key-Applications-of-AI"><a href="#Key-Applications-of-AI" class="headerlink" title="Key Applications of AI"></a>Key Applications of AI</h4><p>常见的人工智能应用包括以下几种：</p>
-<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant TRADING AGENT as A</div><div class="line">participant MARKETS as B</div><div class="line">B-&gt;A: Rates, News</div><div class="line">A-&gt;B: Buy/Sell</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant ROBOT as A</div><div class="line">participant ENV as B</div><div class="line">B-&gt;A: cameras, microphone</div><div class="line">A-&gt;B: motors, voice</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant GAME AGENT as A</div><div class="line">participant YOU as B</div><div class="line">B-&gt;A: your moves</div><div class="line">A-&gt;B: his moves</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant DIAGNOSTIC AGENT as A</div><div class="line">participant DOCTOR as B</div><div class="line">B-&gt;A: vital, signals</div><div class="line">A-&gt;B: diagnostics</div></pre></td></tr></table></figure>
-<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">participant CRAWLER (crawling agent) as A</div><div class="line">participant WWW as B</div><div class="line">participant YOU as C</div><div class="line">B-&gt;A: Web Paces</div><div class="line">A-&gt;C: Response your query</div></pre></td></tr></table></figure>
-<h4 id="Four-key-attributes-of-an-AI-system"><a href="#Four-key-attributes-of-an-AI-system" class="headerlink" title="Four key attributes of an AI system"></a>Four key attributes of an AI system</h4><table>
-<thead>
-<tr>
-<th>分类A</th>
-<th>分类B</th>
-<th>AI情景可以按这几个维度进行分类</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Fully Observable</td>
-<td>Partially Observable</td>
-<td>是否需要记录历史数据帮助决策，是否Agent能看到全局</td>
-</tr>
-<tr>
-<td>Deterministic</td>
-<td>Stochastic</td>
-<td>每一步行为是不是可以确定对未来的影响</td>
-</tr>
-<tr>
-<td>Discrete</td>
-<td>Continuous</td>
-<td>有限个状态或是无限多个</td>
-</tr>
-<tr>
-<td>Benign Env</td>
-<td>Adversarial Env</td>
-<td>对抗环境(更难处理，类似博弈论)</td>
-</tr>
-</tbody>
-</table>
-<h4 id="AI-and-Uncertainty"><a href="#AI-and-Uncertainty" class="headerlink" title="AI and Uncertainty"></a>AI and Uncertainty</h4><p>AI is the technique of uncertainty management in computer software 由于以下这些原因，AI是个不确定性的游戏。</p>
-<h4 id="Sensor-Limits"><a href="#Sensor-Limits" class="headerlink" title="Sensor Limits"></a>Sensor Limits</h4><p>Adversaries<br>Stochastic Environments<br>Laziness<br>Ignorance</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-      	
-    
-    	
-      		
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
                 <a class="post-title-link" href="/2017/07/06/udacity-introduction-to-AI-introduction/" itemprop="url">
                   Udacity - Introduction to AI
                 </a>
@@ -675,6 +502,178 @@
 <p>斯坦福开学是9月份，现在正是暑假。我希望利用这几个月的时间，对AI的各个方向都有个初步的了解。虽然之前读书都时候数据挖掘，随机过程都学习过，但肯定还有很多方面我需要补充。Udacity这门课程可以说完美的覆盖了我的需求。</p>
 <p>###课程地址及相关链接<br>Udacity地址：<a href="http://www.udacity.com/" target="_blank" rel="external">http://www.udacity.com/</a><br>课程地址：<a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external">http://www.udacity.com/overview/Course/cs271/CourseRev/1</a><br>很不幸，由于视频在youtube上，在线观看需要翻墙。翻墙教程见本组置顶贴。<br>也可以下载下来看，地址是：<a href="http://www.udacity.com/wiki/CS271_downloads?course=cs271" target="_blank" rel="external">http://www.udacity.com/wiki/CS271_downloads?course=cs271</a> 。 感谢@isnowfy 的提醒。<br>不过，想要得到Certificate的话，还是需要在线提交Problem Sets和Exams的。<br>更新：从论坛了解到的情况来看，Certificate只有一种：certificate of Completion。将发给在期中和期末答对题目80%以上的同学。Problem Sets不计入成绩。</p>
 <p><strong>这里有教材（中文版）：</strong><br><a href="http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom</a><br><a href="http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+      	
+    
+    	
+      		
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/07/06/udacity-introduction-to-AI-unit-1/" itemprop="url">
+                  Introduction to AI - Unit 1 - Welcome to AI
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-07-06T21:42:47-07:00" content="2017-07-06">
+              2017-07-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/learning/" itemprop="url" rel="index">
+                    <span itemprop="name">learning</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/07/06/udacity-introduction-to-AI-unit-1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/07/06/udacity-introduction-to-AI-unit-1/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/07/06/udacity-introduction-to-AI-unit-1/" class="leancloud_visitors" data-flag-title="Introduction to AI - Unit 1 - Welcome to AI">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。</p>
+<h4 id="AI的定义"><a href="#AI的定义" class="headerlink" title="AI的定义"></a>AI的定义</h4><p>对于人工智能的定义，网上有各种答案。Sebastian给出的解释非常的简单并且精确，AI就是Intelligent Agent（智能代理人、智能主体）。</p>
+<p>人工智能基础结构包括，Agent, Sensors and Actuators<br><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-0.png" alt=""></p>
+<h4 id="Key-Applications-of-AI"><a href="#Key-Applications-of-AI" class="headerlink" title="Key Applications of AI"></a>Key Applications of AI</h4><p>常见的人工智能应用包括以下几种：</p>
+<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-1.png" alt=""></p>
+<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-2.png" alt=""></p>
+<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-3.png" alt=""></p>
+<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-4.png" alt=""></p>
+<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-5.png" alt=""></p>
+<h4 id="Four-key-attributes-of-an-AI-system"><a href="#Four-key-attributes-of-an-AI-system" class="headerlink" title="Four key attributes of an AI system"></a>Four key attributes of an AI system</h4><table>
+<thead>
+<tr>
+<th>分类A</th>
+<th>分类B</th>
+<th>AI情景可以按这几个维度进行分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fully Observable</td>
+<td>Partially Observable</td>
+<td>是否需要记录历史数据帮助决策，是否Agent能看到全局</td>
+</tr>
+<tr>
+<td>Deterministic</td>
+<td>Stochastic</td>
+<td>每一步行为是不是可以确定对未来的影响</td>
+</tr>
+<tr>
+<td>Discrete</td>
+<td>Continuous</td>
+<td>有限个状态或是无限多个</td>
+</tr>
+<tr>
+<td>Benign Env</td>
+<td>Adversarial Env</td>
+<td>对抗环境(更难处理，类似博弈论)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="AI-and-Uncertainty"><a href="#AI-and-Uncertainty" class="headerlink" title="AI and Uncertainty"></a>AI and Uncertainty</h4><p>AI is the technique of uncertainty management in computer software 由于以下这些原因，AI是个不确定性的游戏。</p>
+<h4 id="Sensor-Limits"><a href="#Sensor-Limits" class="headerlink" title="Sensor Limits"></a>Sensor Limits</h4><p>Adversaries<br>Stochastic Environments<br>Laziness<br>Ignorance</p>
 
           
         

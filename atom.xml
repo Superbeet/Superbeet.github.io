@@ -30,6 +30,36 @@
   </entry>
   
   <entry>
+    <title>Udacity - Introduction to AI</title>
+    <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/"/>
+    <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/</id>
+    <published>2017-07-07T04:42:47.000Z</published>
+    <updated>2017-07-10T00:56:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 <a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external"><strong>﻿Introduction to Artificial Intelligence</strong></a>﻿ 又重新在Udacity上向全世界开放注册了！勇敢的少年啊，让我们一起来了解现代AI背后的原理吧！</p>
+<p>###关于老师<br>Sebastian Thrun是著名的机器人科学家，斯坦福大学教授，Google X实验室创始人，他负责了Google无人驾驶车和Google Glass项目。Peter Norvig是著名的计算机科学家，Google研究主管，负责Google内部前沿科技的研发。</p>
+<p>###课程内容<br>这门课会介绍现代人工智能背后的基础知识，涵盖状态空间搜索，概率推理，机器学习，无监督学习，逻辑推理，规划，强化学习，马尔可夫模型，滤波，对抗搜索，博弈等相关内容。这几乎涵盖了现代人工智能的各个方向。所有现代智能系统，包括机器人，推荐系统，识别系统等都可以从这门课中找到理论基础。</p>
+<p>需要具备的知识基础<br>虽然涵盖了这么多内容，但是这门课完全不需要编程。上面的全部内容都被老师融入了一个一个简单的小例子中。简单的计算就可以得出课中所有问题的答案，甚至连微积分都不需要！高中数学基本就够了。当然，贝叶斯原理是需要的，这个实在无法避免啊……</p>
+<h3 id="学习这门课的动机"><a href="#学习这门课的动机" class="headerlink" title="学习这门课的动机"></a>学习这门课的动机</h3><p>因为我正在申请斯坦福大学的AI研究生课程，希望可以系统的学习高质量的AI知识，为之后的职业生涯做准备。</p>
+<p>斯坦福开学是9月份，现在正是暑假。我希望利用这几个月的时间，对AI的各个方向都有个初步的了解。虽然之前读书都时候数据挖掘，随机过程都学习过，但肯定还有很多方面我需要补充。Udacity这门课程可以说完美的覆盖了我的需求。</p>
+<p>###课程地址及相关链接<br>Udacity地址：<a href="http://www.udacity.com/" target="_blank" rel="external">http://www.udacity.com/</a><br>课程地址：<a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external">http://www.udacity.com/overview/Course/cs271/CourseRev/1</a><br>很不幸，由于视频在youtube上，在线观看需要翻墙。翻墙教程见本组置顶贴。<br>也可以下载下来看，地址是：<a href="http://www.udacity.com/wiki/CS271_downloads?course=cs271" target="_blank" rel="external">http://www.udacity.com/wiki/CS271_downloads?course=cs271</a> 。 感谢@isnowfy 的提醒。<br>不过，想要得到Certificate的话，还是需要在线提交Problem Sets和Exams的。<br>更新：从论坛了解到的情况来看，Certificate只有一种：certificate of Completion。将发给在期中和期末答对题目80%以上的同学。Problem Sets不计入成绩。</p>
+<p><strong>这里有教材（中文版）：</strong><br><a href="http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom</a><br><a href="http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 &lt;a href=&quot;http://www.udacity.com/overview/Course/cs271/CourseRev/1&quot; target=&quot;_blank&quot; rel=&quot;exter
+    
+    </summary>
+    
+      <category term="learning" scheme="http://localhost:4000/categories/learning/"/>
+    
+    
+      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Introduction to AI - Unit 1 - Welcome to AI</title>
     <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-1/"/>
     <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-unit-1/</id>
@@ -38,14 +68,13 @@
     
     <content type="html"><![CDATA[<p>今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。</p>
 <h4 id="AI的定义"><a href="#AI的定义" class="headerlink" title="AI的定义"></a>AI的定义</h4><p>对于人工智能的定义，网上有各种答案。Sebastian给出的解释非常的简单并且精确，AI就是Intelligent Agent（智能代理人、智能主体）。</p>
-<p>人工智能基础结构包括，Agent, Sensors and Actuators</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant Agent as A</div><div class="line">participant Environment as B</div><div class="line">A-&gt;B: Sensors</div><div class="line">B-&gt;A: Actuators</div></pre></td></tr></table></figure>
+<p>人工智能基础结构包括，Agent, Sensors and Actuators<br><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-0.png" alt=""></p>
 <h4 id="Key-Applications-of-AI"><a href="#Key-Applications-of-AI" class="headerlink" title="Key Applications of AI"></a>Key Applications of AI</h4><p>常见的人工智能应用包括以下几种：</p>
-<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant TRADING AGENT as A</div><div class="line">participant MARKETS as B</div><div class="line">B-&gt;A: Rates, News</div><div class="line">A-&gt;B: Buy/Sell</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant ROBOT as A</div><div class="line">participant ENV as B</div><div class="line">B-&gt;A: cameras, microphone</div><div class="line">A-&gt;B: motors, voice</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant GAME AGENT as A</div><div class="line">participant YOU as B</div><div class="line">B-&gt;A: your moves</div><div class="line">A-&gt;B: his moves</div></pre></td></tr></table></figure>
-<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">participant DIAGNOSTIC AGENT as A</div><div class="line">participant DOCTOR as B</div><div class="line">B-&gt;A: vital, signals</div><div class="line">A-&gt;B: diagnostics</div></pre></td></tr></table></figure>
-<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">participant CRAWLER (crawling agent) as A</div><div class="line">participant WWW as B</div><div class="line">participant YOU as C</div><div class="line">B-&gt;A: Web Paces</div><div class="line">A-&gt;C: Response your query</div></pre></td></tr></table></figure>
+<h5 id="AI-in-Finance"><a href="#AI-in-Finance" class="headerlink" title="AI in Finance"></a>AI in Finance</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-1.png" alt=""></p>
+<h5 id="AI-in-Robotics"><a href="#AI-in-Robotics" class="headerlink" title="AI in Robotics"></a>AI in Robotics</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-2.png" alt=""></p>
+<h5 id="AI-in-Games"><a href="#AI-in-Games" class="headerlink" title="AI in Games"></a>AI in Games</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-3.png" alt=""></p>
+<h5 id="AI-in-Medicine"><a href="#AI-in-Medicine" class="headerlink" title="AI in Medicine"></a>AI in Medicine</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-4.png" alt=""></p>
+<h5 id="AI-on-Webs"><a href="#AI-on-Webs" class="headerlink" title="AI on Webs"></a>AI on Webs</h5><p><img src="/diagrams/udacity-introduction-to-AI-unit-1-diagram-5.png" alt=""></p>
 <h4 id="Four-key-attributes-of-an-AI-system"><a href="#Four-key-attributes-of-an-AI-system" class="headerlink" title="Four key attributes of an AI system"></a>Four key attributes of an AI system</h4><table>
 <thead>
 <tr>
@@ -85,36 +114,6 @@
     
       &lt;p&gt;今天上完了Introduction to AI的第一单元。该单元主要是介绍，AI的一些寄出知识和名词。&lt;/p&gt;
 &lt;h4 id=&quot;AI的定义&quot;&gt;&lt;a href=&quot;#AI的定义&quot; class=&quot;headerlink&quot; title=&quot;AI的定义&quot;&gt;&lt;/a&gt;AI的定义&lt;/h4&gt;&lt;p
-    
-    </summary>
-    
-      <category term="learning" scheme="http://localhost:4000/categories/learning/"/>
-    
-    
-      <category term="blog" scheme="http://localhost:4000/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Udacity - Introduction to AI</title>
-    <link href="http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/"/>
-    <id>http://localhost:4000/2017/07/06/udacity-introduction-to-AI-introduction/</id>
-    <published>2017-07-07T04:42:47.000Z</published>
-    <updated>2017-07-10T00:56:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 <a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external"><strong>﻿Introduction to Artificial Intelligence</strong></a>﻿ 又重新在Udacity上向全世界开放注册了！勇敢的少年啊，让我们一起来了解现代AI背后的原理吧！</p>
-<p>###关于老师<br>Sebastian Thrun是著名的机器人科学家，斯坦福大学教授，Google X实验室创始人，他负责了Google无人驾驶车和Google Glass项目。Peter Norvig是著名的计算机科学家，Google研究主管，负责Google内部前沿科技的研发。</p>
-<p>###课程内容<br>这门课会介绍现代人工智能背后的基础知识，涵盖状态空间搜索，概率推理，机器学习，无监督学习，逻辑推理，规划，强化学习，马尔可夫模型，滤波，对抗搜索，博弈等相关内容。这几乎涵盖了现代人工智能的各个方向。所有现代智能系统，包括机器人，推荐系统，识别系统等都可以从这门课中找到理论基础。</p>
-<p>需要具备的知识基础<br>虽然涵盖了这么多内容，但是这门课完全不需要编程。上面的全部内容都被老师融入了一个一个简单的小例子中。简单的计算就可以得出课中所有问题的答案，甚至连微积分都不需要！高中数学基本就够了。当然，贝叶斯原理是需要的，这个实在无法避免啊……</p>
-<h3 id="学习这门课的动机"><a href="#学习这门课的动机" class="headerlink" title="学习这门课的动机"></a>学习这门课的动机</h3><p>因为我正在申请斯坦福大学的AI研究生课程，希望可以系统的学习高质量的AI知识，为之后的职业生涯做准备。</p>
-<p>斯坦福开学是9月份，现在正是暑假。我希望利用这几个月的时间，对AI的各个方向都有个初步的了解。虽然之前读书都时候数据挖掘，随机过程都学习过，但肯定还有很多方面我需要补充。Udacity这门课程可以说完美的覆盖了我的需求。</p>
-<p>###课程地址及相关链接<br>Udacity地址：<a href="http://www.udacity.com/" target="_blank" rel="external">http://www.udacity.com/</a><br>课程地址：<a href="http://www.udacity.com/overview/Course/cs271/CourseRev/1" target="_blank" rel="external">http://www.udacity.com/overview/Course/cs271/CourseRev/1</a><br>很不幸，由于视频在youtube上，在线观看需要翻墙。翻墙教程见本组置顶贴。<br>也可以下载下来看，地址是：<a href="http://www.udacity.com/wiki/CS271_downloads?course=cs271" target="_blank" rel="external">http://www.udacity.com/wiki/CS271_downloads?course=cs271</a> 。 感谢@isnowfy 的提醒。<br>不过，想要得到Certificate的话，还是需要在线提交Problem Sets和Exams的。<br>更新：从论坛了解到的情况来看，Certificate只有一种：certificate of Completion。将发给在期中和期末答对题目80%以上的同学。Problem Sets不计入成绩。</p>
-<p><strong>这里有教材（中文版）：</strong><br><a href="http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235302.html?from=isnom</a><br><a href="http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom" target="_blank" rel="external">http://ishare.iask.sina.com.cn/f/9235303.html?from=isnom</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;MOOC历史上的里程碑，Sebastian Thrun和Peter Norvig讲授的 &lt;a href=&quot;http://www.udacity.com/overview/Course/cs271/CourseRev/1&quot; target=&quot;_blank&quot; rel=&quot;exter
     
     </summary>
     
